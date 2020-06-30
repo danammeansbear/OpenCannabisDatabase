@@ -1,3 +1,25 @@
+$ python
+#>>> 
+#>>> from simple_device import SimpleDevice
+#>>> device = SimpleDevice()
+#Processing current state: LockedState
+#>>> 
+#>>> device.on_event('device_locked')
+#>>> device.on_event('pin_entered')
+#Processing current state: UnlockedState
+#>>> 
+#>>> device.state
+#UnlockedState
+#>>> 
+#>>> device.on_event('device_locked')
+#Processing current state: LockedState
+#>>> 
+#>>> device.state
+#LockedState
+#>>> device.on_event('device_locked')
+
+
+
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jun 29 16:31:58 2020
