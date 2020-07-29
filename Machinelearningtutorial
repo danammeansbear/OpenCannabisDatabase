@@ -1,7 +1,7 @@
 #Machine Learning Script
 # First, use `plantcv-train.py` to use the training images to output probability density 
 # functions (PDFs) for plant and background.
-
+# see https://plantcv.readthedocs.io/en/latest/machine_learning_tutorial/#machine-learning-script
 # plantcv-train.py naive_bayes --imgdir ./images --maskdir ./masks --outfile naive_bayes_pdfs.txt --plots
 
 #The output file from plantcv-train.py will contain one row for each color channel (hue, saturation, and value) for each class (e.g. plant and background). The first and second column are the class and channel label, respectively. The remaining 256 columns contain the p-value from the PDFs for each intensity value observable in an 8-bit image (0-255).
