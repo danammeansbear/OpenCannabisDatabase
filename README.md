@@ -1,5 +1,5 @@
 # Adamsplantprocessing
-plantcv tutorial code
+
 
 You will need the lastest version of Anaconda.
 you will need unity 2019.2.5f1 from the unity hub arcive. 
