@@ -74,7 +74,7 @@ https://ironpython.net/download/
 https://code.google.com/archive/p/ironclad/
 
 
-
+Currently the Unity Project is still a work in progress, but their is a python interactive dashboard file that can read all the arduino data. I also uploaded the dataset i created in hopes people will add too it in real time.
 after all this is done, navigate and open the unity hub.
 Open the unity project and Bam edit and deploy to your hearts content. 
     
