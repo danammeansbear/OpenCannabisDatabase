@@ -1,0 +1,1314 @@
+PlantName,Indicator Name,Day,Value
+PurpleMarmalade,GrowthRate,10,0.5
+PurpleMarmalade,EC,10,320
+PurpleMarmalade,PH,10,6.5
+PurpleMarmalade,SoilMoister,10,65
+PurpleMarmalade,Humidity,10,53
+PurpleMarmalade,WaterUse,10,2
+PurpleMarmalade,PhenoType,10,2
+PurpleMarmalade,Height,10,10
+PurpleMarmalade,Width,10,8
+PurpleMarmalade,Temp,10,72
+PurpleMarmalade,NValue,10,5
+PurpleMarmalade,PValue,10,5
+PurpleMarmalade,KValue,10,5
+PurpleMarmalade,CurrentNDVI,10,10
+PurpleMarmalade,GrowthRate,11,0.7
+PurpleMarmalade,EC,11,310
+PurpleMarmalade,PH,11,6.5
+PurpleMarmalade,SoilMoister,11,65
+PurpleMarmalade,Humidity,11,52
+PurpleMarmalade,WaterUse,11,3
+PurpleMarmalade,PhenoType,11,2
+PurpleMarmalade,Height,11,11
+PurpleMarmalade,Width,11,8
+PurpleMarmalade,Temp,11,75
+PurpleMarmalade,NValue,11,5
+PurpleMarmalade,PValue,11,5
+PurpleMarmalade,KValue,11,5
+PurpleMarmalade,CurrentNDVI,11,10
+PurpleMarmalade,GrowthRate,12,1.3
+PurpleMarmalade,EC,12,308
+PurpleMarmalade,PH,12,6.4
+PurpleMarmalade,SoilMoister,12,55
+PurpleMarmalade,Humidity,12,52
+PurpleMarmalade,WaterUse,12,3
+PurpleMarmalade,PhenoType,12,6.964453716
+PurpleMarmalade,Height,12,13.5
+PurpleMarmalade,Width,12,10
+PurpleMarmalade,Temp,12,73
+PurpleMarmalade,NValue,12,5
+PurpleMarmalade,PValue,12,5
+PurpleMarmalade,KValue,12,5
+PurpleMarmalade,CurrentNDVI,12,10
+GreaseMonkey,GrowthRate,10,1.5
+GreaseMonkey,EC,10,307
+GreaseMonkey,PH,10,5.5
+GreaseMonkey,SoilMoister,10,65
+GreaseMonkey,Humidity,10,51
+GreaseMonkey,WaterUse,10,53.28588054
+GreaseMonkey,PhenoType,10,5.523020444
+GreaseMonkey,Height,10,10
+GreaseMonkey,Width,10,53.54104162
+GreaseMonkey,Temp,10,
+GreaseMonkey,NValue,10,
+GreaseMonkey,PValue,10,63.27171776
+GreaseMonkey,KValue,10,10.76127223
+GreaseMonkey,CurrentNDVI,10,
+GreaseMonkey,GrowthRate,11,
+GreaseMonkey,EC,11,297
+GreaseMonkey,PH,11,5.9
+GreaseMonkey,SoilMoister,11,55
+GreaseMonkey,Humidity,11,
+GreaseMonkey,WaterUse,11,53.28588054
+GreaseMonkey,PhenoType,11,5.523020444
+GreaseMonkey,Height,11,
+GreaseMonkey,Width,11,53.54104162
+GreaseMonkey,Temp,11,
+GreaseMonkey,NValue,11,
+GreaseMonkey,PValue,11,63.27171776
+GreaseMonkey,KValue,11,10.76127223
+GreaseMonkey,CurrentNDVI,11,
+GreaseMonkey,GrowthRate,12,
+GreaseMonkey,EC,12,267
+GreaseMonkey,PH,12,5.7
+GreaseMonkey,SoilMoister,12,52
+GreaseMonkey,Humidity,12,
+GreaseMonkey,WaterUse,12,53.28588054
+GreaseMonkey,PhenoType,12,5.523020444
+GreaseMonkey,Height,12,
+GreaseMonkey,Width,12,53.54104162
+GreaseMonkey,Temp,12,
+GreaseMonkey,NValue,12,
+GreaseMonkey,PValue,12,63.27171776
+GreaseMonkey,KValue,12,10.76127223
+GreaseMonkey,CurrentNDVI,12,
+MAC,GrowthRate,10,
+MAC,EC,10,560
+MAC,PH,10,5.6
+MAC,SoilMoister,10,65
+MAC,Humidity,10,
+MAC,WaterUse,10,
+MAC,PhenoType,10,2.311377783
+MAC,Height,10,
+MAC,Width,10,
+MAC,Temp,10,
+MAC,NValue,10,
+MAC,PValue,10,68.00779332
+MAC,KValue,10,84.10284765
+MAC,CurrentNDVI,10,
+MAC,GrowthRate,11,
+MAC,EC,11,340
+MAC,PH,11,6.2
+MAC,SoilMoister,11,55
+MAC,Humidity,11,
+MAC,WaterUse,11,
+MAC,PhenoType,11,2.311377783
+MAC,Height,11,
+MAC,Width,11,
+MAC,Temp,11,
+MAC,NValue,11,
+MAC,PValue,11,68.00779332
+MAC,KValue,11,84.10284765
+MAC,CurrentNDVI,11,
+MAC,GrowthRate,12,
+MAC,EC,12,278
+MAC,PH,12,6.1
+MAC,SoilMoister,12,52
+MAC,Humidity,12,
+MAC,WaterUse,12,
+MAC,PhenoType,12,2.311377783
+MAC,Height,12,
+MAC,Width,12,
+MAC,Temp,12,
+MAC,NValue,12,
+MAC,PValue,12,68.00779332
+MAC,KValue,12,84.10284765
+MAC,CurrentNDVI,12,
+MAC,GrowthRate,13,
+MAC,EC,13,666
+MAC,PH,13,6.3
+MAC,SoilMoister,13,48
+MAC,Humidity,13,
+MAC,WaterUse,13,
+MAC,PhenoType,13,2.311377783
+MAC,Height,13,
+MAC,Width,13,
+MAC,Temp,13,
+MAC,NValue,13,
+MAC,PValue,13,68.00779332
+MAC,KValue,13,84.10284765
+MAC,CurrentNDVI,13,
+PineappleExpress,GrowthRate,10,
+PineappleExpress,EC,10,401
+PineappleExpress,PH,10,6.4
+PineappleExpress,SoilMoister,10,65
+PineappleExpress,Humidity,10,
+PineappleExpress,WaterUse,10,11.15873212
+PineappleExpress,PhenoType,10,6.1383062
+PineappleExpress,Height,10,4.153832525
+PineappleExpress,Width,10,11.41138617
+PineappleExpress,Temp,10,
+PineappleExpress,NValue,10,1.942370426
+PineappleExpress,PValue,10,46.42609621
+PineappleExpress,KValue,10,30.9003593
+PineappleExpress,CurrentNDVI,10,
+PineappleExpress,GrowthRate,11,
+PineappleExpress,EC,11,623
+PineappleExpress,PH,11,5.9
+PineappleExpress,SoilMoister,11,55
+PineappleExpress,Humidity,11,
+PineappleExpress,WaterUse,11,11.15873212
+PineappleExpress,PhenoType,11,6.1383062
+PineappleExpress,Height,11,4.153832525
+PineappleExpress,Width,11,11.41138617
+PineappleExpress,Temp,11,
+PineappleExpress,NValue,11,1.942370426
+PineappleExpress,PValue,11,46.42609621
+PineappleExpress,KValue,11,30.9003593
+PineappleExpress,CurrentNDVI,11,
+PineappleExpress,GrowthRate,12,
+PineappleExpress,EC,12,340
+PineappleExpress,PH,12,5.7
+PineappleExpress,SoilMoister,12,52
+PineappleExpress,Humidity,12,
+PineappleExpress,WaterUse,12,11.15873212
+PineappleExpress,PhenoType,12,6.1383062
+PineappleExpress,Height,12,4.153832525
+PineappleExpress,Width,12,11.41138617
+PineappleExpress,Temp,12,
+PineappleExpress,NValue,12,1.942370426
+PineappleExpress,PValue,12,46.42609621
+PineappleExpress,KValue,12,30.9003593
+PineappleExpress,CurrentNDVI,12,
+PineappleExpress,GrowthRate,13,
+PineappleExpress,EC,13,297
+PineappleExpress,PH,5.9,
+PineappleExpress,SoilMoister,13,48
+PineappleExpress,Humidity,13,
+PineappleExpress,WaterUse,13,11.15873212
+PineappleExpress,PhenoType,13,6.1383062
+PineappleExpress,Height,13,4.153832525
+PineappleExpress,Width,13,11.41138617
+PineappleExpress,Temp,13,
+PineappleExpress,NValue,13,1.942370426
+PineappleExpress,PValue,13,46.42609621
+PineappleExpress,KValue,13,30.9003593
+PineappleExpress,CurrentNDVI,13,
+SourDiseal,GrowthRate,10,
+SourDiseal,EC,10,201
+SourDiseal,PH,10,6.37
+SourDiseal,SoilMoister,10,65
+SourDiseal,Humidity,10,
+SourDiseal,WaterUse,10,11.24259232
+SourDiseal,PhenoType,10,5.547543031
+SourDiseal,Height,10,6.20989184
+SourDiseal,Width,10,11.77985919
+SourDiseal,Temp,10,
+SourDiseal,NValue,10,
+SourDiseal,PValue,10,49.42296055
+SourDiseal,KValue,10,43.43765416
+SourDiseal,CurrentNDVI,10,
+SourDiseal (excluding high income),GrowthRate,10,40.22258074
+SourDiseal (excluding high income),EC,10,333
+SourDiseal (excluding high income),PH,10,6
+SourDiseal (excluding high income),SoilMoister,10,65
+SourDiseal (excluding high income),Humidity,10,
+SourDiseal (excluding high income),WaterUse,10,6.919595844
+SourDiseal (excluding high income),PhenoType,10,6.038600289
+SourDiseal (excluding high income),Height,10,-0.2159370023
+SourDiseal (excluding high income),Width,10,6.035706152
+SourDiseal (excluding high income),Temp,10,29.21675146
+SourDiseal (excluding high income),NValue,10,
+SourDiseal (excluding high income),PValue,10,46.62007167
+SourDiseal (excluding high income),KValue,10,56.96638677
+SourDiseal (excluding high income),CurrentNDVI,10,31.02610871
+SourDiseal (IDA & IBRD countries),GrowthRate,10,40.22258074
+SourDiseal (IDA & IBRD countries),EC,10,286
+SourDiseal (IDA & IBRD countries),PH,10,6
+SourDiseal (IDA & IBRD countries),SoilMoister,10,65
+SourDiseal (IDA & IBRD countries),Humidity,10,
+SourDiseal (IDA & IBRD countries),WaterUse,10,6.919595844
+SourDiseal (IDA & IBRD countries),PhenoType,10,6.069916005
+SourDiseal (IDA & IBRD countries),Height,10,-0.2159370023
+SourDiseal (IDA & IBRD countries),Width,10,6.035706152
+SourDiseal (IDA & IBRD countries),Temp,10,29.21675146
+SourDiseal (IDA & IBRD countries),NValue,10,
+SourDiseal (IDA & IBRD countries),PValue,10,46.55106301
+SourDiseal (IDA & IBRD countries),KValue,10,56.64893307
+SourDiseal (IDA & IBRD countries),CurrentNDVI,10,31.02610871
+SourDiseal,GrowthRate,11,
+SourDiseal,EC,11,430
+SourDiseal,PH,11,6
+SourDiseal,SoilMoister,11,55
+SourDiseal,Humidity,11,
+SourDiseal,WaterUse,11,11.24259232
+SourDiseal,PhenoType,11,5.547543031
+SourDiseal,Height,11,6.20989184
+SourDiseal,Width,11,11.77985919
+SourDiseal,Temp,11,
+SourDiseal,NValue,11,
+SourDiseal,PValue,11,49.42296055
+SourDiseal,KValue,11,43.43765416
+SourDiseal,CurrentNDVI,11,
+SourDiseal (excluding high income),GrowthRate,11,40.22258074
+SourDiseal (excluding high income),EC,11,320
+SourDiseal (excluding high income),PH,11,6
+SourDiseal (excluding high income),SoilMoister,11,55
+SourDiseal (excluding high income),Humidity,11,
+SourDiseal (excluding high income),WaterUse,11,6.919595844
+SourDiseal (excluding high income),PhenoType,11,6.038600289
+SourDiseal (excluding high income),Height,11,-0.2159370023
+SourDiseal (excluding high income),Width,11,6.035706152
+SourDiseal (excluding high income),Temp,11,29.21675146
+SourDiseal (excluding high income),NValue,11,
+SourDiseal (excluding high income),PValue,11,46.62007167
+SourDiseal (excluding high income),KValue,11,56.96638677
+SourDiseal (excluding high income),CurrentNDVI,11,31.02610871
+SourDiseal (IDA & IBRD countries),GrowthRate,11,40.22258074
+SourDiseal (IDA & IBRD countries),EC,11,287
+SourDiseal (IDA & IBRD countries),PH,11,6
+SourDiseal (IDA & IBRD countries),SoilMoister,11,55
+SourDiseal (IDA & IBRD countries),Humidity,11,
+SourDiseal (IDA & IBRD countries),WaterUse,11,6.919595844
+SourDiseal (IDA & IBRD countries),PhenoType,11,6.069916005
+SourDiseal (IDA & IBRD countries),Height,11,-0.2159370023
+SourDiseal (IDA & IBRD countries),Width,11,6.035706152
+SourDiseal (IDA & IBRD countries),Temp,11,29.21675146
+SourDiseal (IDA & IBRD countries),NValue,11,
+SourDiseal (IDA & IBRD countries),PValue,11,46.55106301
+SourDiseal (IDA & IBRD countries),KValue,11,56.64893307
+SourDiseal (IDA & IBRD countries),CurrentNDVI,11,31.02610871
+SourDiseal,GrowthRate,12,
+SourDiseal,EC,12,870
+SourDiseal,PH,12,6
+SourDiseal,SoilMoister,12,55
+SourDiseal,Humidity,12,
+SourDiseal,WaterUse,12,11.24259232
+SourDiseal,PhenoType,12,5.547543031
+SourDiseal,Height,12,6.20989184
+SourDiseal,Width,12,11.77985919
+SourDiseal,Temp,12,
+SourDiseal,NValue,12,
+SourDiseal,PValue,12,49.42296055
+SourDiseal,KValue,12,43.43765416
+SourDiseal,CurrentNDVI,12,
+SourDiseal (excluding high income),GrowthRate,12,40.22258074
+SourDiseal (excluding high income),EC,12,0.5616655302
+SourDiseal (excluding high income),PH,12,5.9
+SourDiseal (excluding high income),SoilMoister,12,52
+SourDiseal (excluding high income),Humidity,12,
+SourDiseal (excluding high income),WaterUse,12,6.919595844
+SourDiseal (excluding high income),PhenoType,12,6.038600289
+SourDiseal (excluding high income),Height,12,-0.2159370023
+SourDiseal (excluding high income),Width,12,6.035706152
+SourDiseal (excluding high income),Temp,12,29.21675146
+SourDiseal (excluding high income),NValue,12,
+SourDiseal (excluding high income),PValue,12,46.62007167
+SourDiseal (excluding high income),KValue,12,56.96638677
+SourDiseal (excluding high income),CurrentNDVI,12,31.02610871
+SourDiseal (IDA & IBRD countries),GrowthRate,12,40.22258074
+SourDiseal (IDA & IBRD countries),EC,12,320
+SourDiseal (IDA & IBRD countries),PH,12,5.6
+SourDiseal (IDA & IBRD countries),SoilMoister,12,52
+SourDiseal (IDA & IBRD countries),Humidity,12,
+SourDiseal (IDA & IBRD countries),WaterUse,12,6.919595844
+SourDiseal (IDA & IBRD countries),PhenoType,12,6.069916005
+SourDiseal (IDA & IBRD countries),Height,12,-0.2159370023
+SourDiseal (IDA & IBRD countries),Width,12,6.035706152
+SourDiseal (IDA & IBRD countries),Temp,12,29.21675146
+SourDiseal (IDA & IBRD countries),NValue,12,
+SourDiseal (IDA & IBRD countries),PValue,12,46.55106301
+SourDiseal (IDA & IBRD countries),KValue,12,56.64893307
+SourDiseal (IDA & IBRD countries),CurrentNDVI,12,31.02610871
+SourDiseal,GrowthRate,13,
+SourDiseal,EC,13,420
+SourDiseal,PH,13,5.7
+SourDiseal,SoilMoister,13,48
+SourDiseal,Humidity,13,
+SourDiseal,WaterUse,13,11.24259232
+SourDiseal,PhenoType,13,5.547543031
+SourDiseal,Height,13,6.20989184
+SourDiseal,Width,13,11.77985919
+SourDiseal,Temp,13,
+SourDiseal,NValue,13,
+SourDiseal,PValue,13,49.42296055
+SourDiseal,KValue,13,43.43765416
+SourDiseal,CurrentNDVI,13,
+SourDiseal (excluding high income),GrowthRate,13,40.22258074
+SourDiseal (excluding high income),EC,13,0.5616655302
+SourDiseal (excluding high income),PH,13,5.8
+SourDiseal (excluding high income),SoilMoister,13,48
+SourDiseal (excluding high income),Humidity,13,
+SourDiseal (excluding high income),WaterUse,13,6.919595844
+SourDiseal (excluding high income),PhenoType,13,6.038600289
+SourDiseal (excluding high income),Height,13,-0.2159370023
+SourDiseal (excluding high income),Width,13,6.035706152
+SourDiseal (excluding high income),Temp,13,29.21675146
+SourDiseal (excluding high income),NValue,13,
+SourDiseal (excluding high income),PValue,13,46.62007167
+SourDiseal (excluding high income),KValue,13,56.96638677
+SourDiseal (excluding high income),CurrentNDVI,13,31.02610871
+SourDiseal (IDA & IBRD countries),GrowthRate,13,40.22258074
+SourDiseal (IDA & IBRD countries),EC,13,0.5607543457
+SourDiseal (IDA & IBRD countries),PH,13,5.9
+SourDiseal (IDA & IBRD countries),SoilMoister,13,48
+SourDiseal (IDA & IBRD countries),Humidity,13,
+SourDiseal (IDA & IBRD countries),WaterUse,13,6.919595844
+SourDiseal (IDA & IBRD countries),PhenoType,13,6.069916005
+SourDiseal (IDA & IBRD countries),Height,13,-0.2159370023
+SourDiseal (IDA & IBRD countries),Width,13,6.035706152
+SourDiseal (IDA & IBRD countries),Temp,13,29.21675146
+SourDiseal (IDA & IBRD countries),NValue,13,
+SourDiseal (IDA & IBRD countries),PValue,13,46.55106301
+SourDiseal (IDA & IBRD countries),KValue,13,56.64893307
+SourDiseal (IDA & IBRD countries),CurrentNDVI,13,31.02610871
+PinkKush,GrowthRate,10,
+PinkKush,EC,10,
+PinkKush,PH,10,7.62
+PinkKush,SoilMoister,10,65
+PinkKush,Humidity,10,1566.554259
+PinkKush,WaterUse,10,17.97989235
+PinkKush,PhenoType,10,2.638609906
+PinkKush,Height,10,6.389289446
+PinkKush,Width,10,18.57758814
+PinkKush,Temp,10,
+PinkKush,NValue,10,3.934306333
+PinkKush,PValue,10,69.60281546
+PinkKush,KValue,10,102.1685206
+PinkKush,GrowthRate,10,
+PinkKush,EC,10,
+PinkKush,PH,10,7.6
+PinkKush,SoilMoister,10,13
+PinkKush,Humidity,10,1566.554259
+PinkKush,WaterUse,10,17.97989235
+PinkKush,PhenoType,10,2.638609906
+PinkKush,Height,10,6.389289446
+PinkKush,Width,10,18.57758814
+PinkKush,Temp,10,
+PinkKush,NValue,10,3.934306333
+PinkKush,PValue,10,69.60281546
+PinkKush,KValue,10,102.1685206
+PinkKush,GrowthRate,10,
+PinkKush,EC,10,
+PinkKush,PH,10,7.6
+PinkKush,SoilMoister,10,42
+PinkKush,Humidity,10,1566.554259
+PinkKush,WaterUse,10,17.97989235
+PinkKush,PhenoType,10,2.638609906
+PinkKush,Height,10,6.389289446
+PinkKush,Width,10,18.57758814
+PinkKush,Temp,10,
+PinkKush,NValue,10,3.934306333
+PinkKush,PValue,10,69.60281546
+PinkKush,KValue,10,102.1685206
+PinkKush,GrowthRate,10,
+PinkKush,EC,10,
+PinkKush,PH,10,6.4
+PinkKush,SoilMoister,10,65
+PinkKush,Humidity,10,1566.554259
+PinkKush,WaterUse,10,17.97989235
+PinkKush,PhenoType,10,2.638609906
+PinkKush,Height,10,6.389289446
+PinkKush,Width,10,18.57758814
+PinkKush,Temp,10,
+PinkKush,NValue,10,3.934306333
+PinkKush,PValue,10,69.60281546
+PinkKush,KValue,10,102.1685206
+PinkKush,CurrentNDVI,10,
+AsianHemp,GrowthRate,10,
+AsianHemp,EC,10,
+AsianHemp,PH,10,6.6
+AsianHemp,SoilMoister,10,65
+AsianHemp,Humidity,10,
+AsianHemp,WaterUse,10,18.85961107
+AsianHemp,PhenoType,10,2.801406017
+AsianHemp,Height,10,
+AsianHemp,Width,10,19.60065986
+AsianHemp,Temp,10,
+AsianHemp,NValue,10,
+AsianHemp,PValue,10,67.48931558
+AsianHemp,KValue,10,24.97043895
+AsianHemp,CurrentNDVI,10,
+AsianHemp (excluding high income),GrowthRate,10,
+AsianHemp (excluding high income),EC,10,
+AsianHemp (excluding high income),PH,10,6.3
+AsianHemp (excluding high income),SoilMoister,10,65
+AsianHemp (excluding high income),Humidity,10,
+AsianHemp (excluding high income),WaterUse,10,
+AsianHemp (excluding high income),PhenoType,10,3.0335411
+AsianHemp (excluding high income),Height,10,
+AsianHemp (excluding high income),Width,10,
+AsianHemp (excluding high income),Temp,10,
+AsianHemp (excluding high income),NValue,10,
+AsianHemp (excluding high income),PValue,10,64.30178482
+AsianHemp (excluding high income),KValue,10,12.53473117
+AsianHemp (excluding high income),CurrentNDVI,10,
+AsianHemp (IDA & IBRD countries),GrowthRate,10,
+AsianHemp (IDA & IBRD countries),EC,10,
+AsianHemp (IDA & IBRD countries),PH,10,6
+AsianHemp (IDA & IBRD countries),SoilMoister,10,
+AsianHemp (IDA & IBRD countries),Humidity,10,
+AsianHemp (IDA & IBRD countries),WaterUse,10,
+AsianHemp (IDA & IBRD countries),PhenoType,10,2.994944406
+AsianHemp (IDA & IBRD countries),Height,10,
+AsianHemp (IDA & IBRD countries),Width,10,
+AsianHemp (IDA & IBRD countries),Temp,10,
+AsianHemp (IDA & IBRD countries),NValue,10,
+AsianHemp (IDA & IBRD countries),PValue,10,64.62170061
+AsianHemp (IDA & IBRD countries),KValue,10,13.83771791
+AsianHemp (IDA & IBRD countries),CurrentNDVI,10,
+AsianHemp,GrowthRate,10,
+AsianHemp,EC,10,
+AsianHemp,PH,10,6.6
+AsianHemp,SoilMoister,10,65
+AsianHemp,Humidity,10,
+AsianHemp,WaterUse,10,18.85961107
+AsianHemp,PhenoType,10,2.801406017
+AsianHemp,Height,10,
+AsianHemp,Width,10,19.60065986
+AsianHemp,Temp,10,
+AsianHemp,NValue,10,
+AsianHemp,PValue,10,67.48931558
+AsianHemp,KValue,10,24.97043895
+AsianHemp,CurrentNDVI,10,
+AsianHemp (excluding high income),GrowthRate,10,
+AsianHemp (excluding high income),EC,10,
+AsianHemp (excluding high income),PH,10,23.00124533
+AsianHemp (excluding high income),SoilMoister,10,65
+AsianHemp (excluding high income),Humidity,10,
+AsianHemp (excluding high income),WaterUse,10,
+AsianHemp (excluding high income),PhenoType,10,3.0335411
+AsianHemp (excluding high income),Height,10,
+AsianHemp (excluding high income),Width,10,
+AsianHemp (excluding high income),Temp,10,
+AsianHemp (excluding high income),NValue,10,
+AsianHemp (excluding high income),PValue,10,64.30178482
+AsianHemp (excluding high income),KValue,10,12.53473117
+AsianHemp (excluding high income),CurrentNDVI,10,
+AsianHemp (IDA & IBRD countries),GrowthRate,10,
+AsianHemp (IDA & IBRD countries),EC,10,
+AsianHemp (IDA & IBRD countries),PH,10,5.5
+AsianHemp (IDA & IBRD countries),SoilMoister,10,66
+AsianHemp (IDA & IBRD countries),Humidity,10,
+AsianHemp (IDA & IBRD countries),WaterUse,10,
+AsianHemp (IDA & IBRD countries),PhenoType,10,2.994944406
+AsianHemp (IDA & IBRD countries),Height,10,
+AsianHemp (IDA & IBRD countries),Width,10,
+AsianHemp (IDA & IBRD countries),Temp,10,
+AsianHemp (IDA & IBRD countries),NValue,10,
+AsianHemp (IDA & IBRD countries),PValue,10,64.62170061
+AsianHemp (IDA & IBRD countries),KValue,10,13.83771791
+AsianHemp (IDA & IBRD countries),CurrentNDVI,10,
+AsianHemp,GrowthRate,10,
+AsianHemp,EC,10,400
+AsianHemp,PH,10,46.6076607
+AsianHemp,SoilMoister,10,89
+AsianHemp,Humidity,10,
+AsianHemp,WaterUse,10,18.85961107
+AsianHemp,PhenoType,10,2.801406017
+AsianHemp,Height,10,
+AsianHemp,Width,10,19.60065986
+AsianHemp,Temp,10,
+AsianHemp,NValue,10,
+AsianHemp,PValue,10,67.48931558
+AsianHemp,KValue,10,24.97043895
+AsianHemp,CurrentNDVI,10,
+AsianHemp (excluding high income),GrowthRate,10,
+AsianHemp (excluding high income),EC,10,
+AsianHemp (excluding high income),PH,10,23.00124533
+AsianHemp (excluding high income),SoilMoister,10,
+AsianHemp (excluding high income),Humidity,10,
+AsianHemp (excluding high income),WaterUse,10,
+AsianHemp (excluding high income),PhenoType,10,3.0335411
+AsianHemp (excluding high income),Height,10,
+AsianHemp (excluding high income),Width,10,
+AsianHemp (excluding high income),Temp,10,
+AsianHemp (excluding high income),NValue,10,
+AsianHemp (excluding high income),PValue,10,64.30178482
+AsianHemp (excluding high income),KValue,10,12.53473117
+AsianHemp (excluding high income),CurrentNDVI,10,
+AsianHemp (IDA & IBRD countries),GrowthRate,10,
+AsianHemp (IDA & IBRD countries),EC,10,
+AsianHemp (IDA & IBRD countries),PH,10,23.00124533
+AsianHemp (IDA & IBRD countries),SoilMoister,10,65
+AsianHemp (IDA & IBRD countries),Humidity,10,
+AsianHemp (IDA & IBRD countries),WaterUse,10,
+AsianHemp (IDA & IBRD countries),PhenoType,10,2.994944406
+AsianHemp (IDA & IBRD countries),Height,10,
+AsianHemp (IDA & IBRD countries),Width,10,
+AsianHemp (IDA & IBRD countries),Temp,10,
+AsianHemp (IDA & IBRD countries),NValue,10,
+AsianHemp (IDA & IBRD countries),PValue,10,64.62170061
+AsianHemp (IDA & IBRD countries),KValue,10,13.83771791
+AsianHemp (IDA & IBRD countries),CurrentNDVI,10,
+AsianHemp,GrowthRate,10,
+AsianHemp,EC,10,
+AsianHemp,PH,10,46.6076607
+AsianHemp,SoilMoister,10,65
+AsianHemp,Humidity,10,
+AsianHemp,WaterUse,10,18.85961107
+AsianHemp,PhenoType,10,2.801406017
+AsianHemp,Height,10,
+AsianHemp,Width,10,19.60065986
+AsianHemp,Temp,10,
+AsianHemp,NValue,10,
+AsianHemp,PValue,10,67.48931558
+AsianHemp,KValue,10,24.97043895
+AsianHemp,CurrentNDVI,10,
+AsianHemp (excluding high income),GrowthRate,10,
+AsianHemp (excluding high income),EC,10,
+AsianHemp (excluding high income),PH,10,23.00124533
+AsianHemp (excluding high income),SoilMoister,10,65
+AsianHemp (excluding high income),Humidity,10,
+AsianHemp (excluding high income),WaterUse,10,
+AsianHemp (excluding high income),PhenoType,10,3.0335411
+AsianHemp (excluding high income),Height,10,
+AsianHemp (excluding high income),Width,10,
+AsianHemp (excluding high income),Temp,10,
+AsianHemp (excluding high income),NValue,10,
+AsianHemp (excluding high income),PValue,10,64.30178482
+AsianHemp (excluding high income),KValue,10,12.53473117
+AsianHemp (excluding high income),CurrentNDVI,10,
+AsianHemp (IDA & IBRD countries),GrowthRate,10,
+AsianHemp (IDA & IBRD countries),EC,10,
+AsianHemp (IDA & IBRD countries),PH,10,23.00124533
+AsianHemp (IDA & IBRD countries),SoilMoister,10,65
+AsianHemp (IDA & IBRD countries),Humidity,10,
+AsianHemp (IDA & IBRD countries),WaterUse,10,
+AsianHemp (IDA & IBRD countries),PhenoType,10,2.994944406
+AsianHemp (IDA & IBRD countries),Height,10,
+AsianHemp (IDA & IBRD countries),Width,10,
+AsianHemp (IDA & IBRD countries),Temp,10,
+AsianHemp (IDA & IBRD countries),NValue,10,
+AsianHemp (IDA & IBRD countries),PValue,10,64.62170061
+AsianHemp (IDA & IBRD countries),KValue,10,13.83771791
+AsianHemp (IDA & IBRD countries),CurrentNDVI,10,
+Runtz,GrowthRate,10,
+Runtz,EC,10,6.211182184
+Runtz,PH,10,44.33900994
+Runtz,SoilMoister,10,65
+Runtz,Humidity,10,1869.038118
+Runtz,WaterUse,10,18.69929913
+Runtz,PhenoType,10,2.590904191
+Runtz,Height,10,5.031566294
+Runtz,Width,10,19.26063301
+Runtz,Temp,10,
+Runtz,NValue,10,
+Runtz,PValue,10,69.51456838
+Runtz,KValue,10,98.94880256
+Runtz,CurrentNDVI,10,
+Runtz,GrowthRate,10,
+Runtz,EC,10,6.211182184
+Runtz,PH,10,44.33900994
+Runtz,SoilMoister,10,65
+Runtz,Humidity,10,1869.038118
+Runtz,WaterUse,10,18.69929913
+Runtz,PhenoType,10,2.590904191
+Runtz,Height,10,5.031566294
+Runtz,Width,10,19.26063301
+Runtz,Temp,10,
+Runtz,NValue,10,
+Runtz,PValue,10,69.51456838
+Runtz,KValue,10,98.94880256
+Runtz,CurrentNDVI,10,
+Runtz,GrowthRate,10,
+Runtz,EC,10,6.211182184
+Runtz,PH,10,44.33900994
+Runtz,SoilMoister,10,65
+Runtz,Humidity,10,1869.038118
+Runtz,WaterUse,10,18.69929913
+Runtz,PhenoType,10,2.590904191
+Runtz,Height,10,5.031566294
+Runtz,Width,10,19.26063301
+Runtz,Temp,10,
+Runtz,NValue,10,
+Runtz,PValue,10,69.51456838
+Runtz,KValue,10,98.94880256
+Runtz,CurrentNDVI,10,
+Runtz,GrowthRate,10,
+Runtz,EC,10,6.211182184
+Runtz,PH,10,44.33900994
+Runtz,SoilMoister,10,65
+Runtz,Humidity,10,1869.038118
+Runtz,WaterUse,10,18.69929913
+Runtz,PhenoType,10,2.590904191
+Runtz,Height,10,5.031566294
+Runtz,Width,10,19.26063301
+Runtz,Temp,10,
+Runtz,NValue,10,
+Runtz,PValue,10,69.51456838
+Runtz,KValue,10,98.94880256
+Runtz,CurrentNDVI,10,
+MendoBreath,GrowthRate,10,
+MendoBreath,EC,10,0.2854479164
+MendoBreath,PH,10,14.76296618
+MendoBreath,SoilMoister,10,65
+MendoBreath,Humidity,10,
+MendoBreath,WaterUse,10,
+MendoBreath,PhenoType,10,6.632275168
+MendoBreath,Height,10,
+MendoBreath,Width,10,
+MendoBreath,Temp,10,
+MendoBreath,NValue,10,
+MendoBreath,PValue,10,41.93607892
+MendoBreath,KValue,10,8.440951684
+MendoBreath,CurrentNDVI,10,
+MendoBreath,GrowthRate,10,
+MendoBreath,EC,10,0.2854479164
+MendoBreath,PH,10,14.76296618
+MendoBreath,SoilMoister,10,65
+MendoBreath,Humidity,10,
+MendoBreath,WaterUse,10,
+MendoBreath,PhenoType,10,6.632275168
+MendoBreath,Height,10,
+MendoBreath,Width,10,
+MendoBreath,Temp,10,
+MendoBreath,NValue,10,
+MendoBreath,PValue,10,41.93607892
+MendoBreath,KValue,10,8.440951684
+MendoBreath,CurrentNDVI,10,
+MendoBreath,GrowthRate,10,
+MendoBreath,EC,10,0.2854479164
+MendoBreath,PH,10,14.76296618
+MendoBreath,SoilMoister,10,65
+MendoBreath,Humidity,10,
+MendoBreath,WaterUse,10,
+MendoBreath,PhenoType,10,6.632275168
+MendoBreath,Height,10,
+MendoBreath,Width,10,
+MendoBreath,Temp,10,
+MendoBreath,NValue,10,
+MendoBreath,PValue,10,41.93607892
+MendoBreath,KValue,10,8.440951684
+MendoBreath,CurrentNDVI,10,
+MendoBreath,GrowthRate,10,
+MendoBreath,EC,10,0.2854479164
+MendoBreath,PH,10,14.76296618
+MendoBreath,SoilMoister,10,65
+MendoBreath,Humidity,10,
+MendoBreath,WaterUse,10,
+MendoBreath,PhenoType,10,6.632275168
+MendoBreath,Height,10,
+MendoBreath,Width,10,
+MendoBreath,Temp,10,
+MendoBreath,NValue,10,
+MendoBreath,PValue,10,41.93607892
+MendoBreath,KValue,10,8.440951684
+MendoBreath,CurrentNDVI,10,
+Skittlez,GrowthRate,10,
+Skittlez,EC,10,0.1231880127
+Skittlez,PH,10,9.163897385
+Skittlez,SoilMoister,10,65
+Skittlez,Humidity,10,
+Skittlez,WaterUse,10,18.18819626
+Skittlez,PhenoType,10,6.743673729
+Skittlez,Height,10,6.894541309
+Skittlez,Width,10,21.02891268
+Skittlez,Temp,10,
+Skittlez,NValue,10,2.48595551
+Skittlez,PValue,10,40.41945396
+Skittlez,KValue,10,8.622484235
+Skittlez,CurrentNDVI,10,
+Skittlez,GrowthRate,10,
+Skittlez,EC,10,0.1231880127
+Skittlez,PH,10,9.163897385
+Skittlez,SoilMoister,10,48
+Skittlez,Humidity,10,
+Skittlez,WaterUse,10,18.18819626
+Skittlez,PhenoType,10,6.743673729
+Skittlez,Height,10,6.894541309
+Skittlez,Width,10,21.02891268
+Skittlez,Temp,10,
+Skittlez,NValue,10,2.48595551
+Skittlez,PValue,10,40.41945396
+Skittlez,KValue,10,8.622484235
+Skittlez,CurrentNDVI,10,
+Skittlez,GrowthRate,10,
+Skittlez,EC,10,0.1231880127
+Skittlez,PH,10,9.163897385
+Skittlez,SoilMoister,10,88
+Skittlez,Humidity,10,
+Skittlez,WaterUse,10,18.18819626
+Skittlez,PhenoType,10,6.743673729
+Skittlez,Height,10,6.894541309
+Skittlez,Width,10,21.02891268
+Skittlez,Temp,10,
+Skittlez,NValue,10,2.48595551
+Skittlez,PValue,10,40.41945396
+Skittlez,KValue,10,8.622484235
+Skittlez,CurrentNDVI,10,
+Skittlez,GrowthRate,10,
+Skittlez,EC,10,0.1231880127
+Skittlez,PH,10,9.163897385
+Skittlez,SoilMoister,10,18
+Skittlez,Humidity,10,
+Skittlez,WaterUse,10,18.18819626
+Skittlez,PhenoType,10,6.743673729
+Skittlez,Height,10,6.894541309
+Skittlez,Width,10,21.02891268
+Skittlez,Temp,10,
+Skittlez,NValue,10,2.48595551
+Skittlez,PValue,10,40.41945396
+Skittlez,KValue,10,8.622484235
+Skittlez,CurrentNDVI,10,
+MacTonight,GrowthRate,10,
+MacTonight,EC,10,7.829977265
+MacTonight,PH,10,82.8547064
+MacTonight,SoilMoister,10,2545.231463
+MacTonight,Humidity,10,2913.425272
+MacTonight,WaterUse,10,12.87731346
+MacTonight,PhenoType,10,2.963495107
+MacTonight,Height,10,5.87285481
+MacTonight,Width,10,13.25224404
+MacTonight,Temp,10,
+MacTonight,NValue,10,
+MacTonight,PValue,10,68.84752297
+MacTonight,KValue,10,22.29783982
+MacTonight,CurrentNDVI,10,
+MacTonight,GrowthRate,10,
+MacTonight,EC,10,7.829977265
+MacTonight,PH,10,82.8547064
+MacTonight,SoilMoister,10,2545.231463
+MacTonight,Humidity,10,2913.425272
+MacTonight,WaterUse,10,12.87731346
+MacTonight,PhenoType,10,2.963495107
+MacTonight,Height,10,5.87285481
+MacTonight,Width,10,13.25224404
+MacTonight,Temp,10,
+MacTonight,NValue,10,
+MacTonight,PValue,10,68.84752297
+MacTonight,KValue,10,22.29783982
+MacTonight,CurrentNDVI,10,
+MacTonight,GrowthRate,10,
+MacTonight,EC,10,7.829977265
+MacTonight,PH,10,82.8547064
+MacTonight,SoilMoister,10,2545.231463
+MacTonight,Humidity,10,2913.425272
+MacTonight,WaterUse,10,12.87731346
+MacTonight,PhenoType,10,2.963495107
+MacTonight,Height,10,5.87285481
+MacTonight,Width,10,13.25224404
+MacTonight,Temp,10,
+MacTonight,NValue,10,
+MacTonight,PValue,10,68.84752297
+MacTonight,KValue,10,22.29783982
+MacTonight,CurrentNDVI,10,
+MacTonight,GrowthRate,10,
+MacTonight,EC,10,7.829977265
+MacTonight,PH,10,82.8547064
+MacTonight,SoilMoister,10,2545.231463
+MacTonight,Humidity,10,2913.425272
+MacTonight,WaterUse,10,12.87731346
+MacTonight,PhenoType,10,2.963495107
+MacTonight,Height,10,5.87285481
+MacTonight,Width,10,13.25224404
+MacTonight,Temp,10,
+MacTonight,NValue,10,
+MacTonight,PValue,10,68.84752297
+MacTonight,KValue,10,22.29783982
+MacTonight,CurrentNDVI,10,
+BlueDream,GrowthRate,10,34.67413769
+BlueDream,EC,10,1.136527159
+BlueDream,PH,10,
+BlueDream,SoilMoister,10,
+BlueDream,Humidity,10,
+BlueDream,WaterUse,10,8.338509163
+BlueDream,PhenoType,10,5.494432256
+BlueDream,Height,10,3.655593651
+BlueDream,Width,10,8.196042344
+BlueDream,Temp,10,28.48168463
+BlueDream,NValue,10,
+BlueDream,PValue,10,49.404216
+BlueDream,KValue,10,28.28428096
+BlueDream,CurrentNDVI,10,36.57803609
+BlueDream,GrowthRate,10,34.67413769
+BlueDream,EC,10,1.136527159
+BlueDream,PH,10,
+BlueDream,SoilMoister,10,
+BlueDream,Humidity,10,
+BlueDream,WaterUse,10,8.338509163
+BlueDream,PhenoType,10,5.494432256
+BlueDream,Height,10,3.655593651
+BlueDream,Width,10,8.196042344
+BlueDream,Temp,10,28.48168463
+BlueDream,NValue,10,
+BlueDream,PValue,10,49.404216
+BlueDream,KValue,10,28.28428096
+BlueDream,CurrentNDVI,10,36.57803609
+BlueDream,GrowthRate,10,34.67413769
+BlueDream,EC,10,1.136527159
+BlueDream,PH,10,
+BlueDream,SoilMoister,10,
+BlueDream,Humidity,10,
+BlueDream,WaterUse,10,8.338509163
+BlueDream,PhenoType,10,5.494432256
+BlueDream,Height,10,3.655593651
+BlueDream,Width,10,8.196042344
+BlueDream,Temp,10,28.48168463
+BlueDream,NValue,10,
+BlueDream,PValue,10,49.404216
+BlueDream,KValue,10,28.28428096
+BlueDream,CurrentNDVI,10,36.57803609
+BlueDream,GrowthRate,10,34.67413769
+BlueDream,EC,10,1.136527159
+BlueDream,PH,10,
+BlueDream,SoilMoister,10,
+BlueDream,Humidity,10,
+BlueDream,WaterUse,10,8.338509163
+BlueDream,PhenoType,10,5.494432256
+BlueDream,Height,10,3.655593651
+BlueDream,Width,10,8.196042344
+BlueDream,Temp,10,28.48168463
+BlueDream,NValue,10,
+BlueDream,PValue,10,49.404216
+BlueDream,KValue,10,28.28428096
+BlueDream,CurrentNDVI,10,36.57803609
+WeddingCake,GrowthRate,10,35.21127812
+WeddingCake,EC,10,0.9659958412
+WeddingCake,PH,10,21.40479442
+WeddingCake,SoilMoister,10,
+WeddingCake,Humidity,10,
+WeddingCake,WaterUse,10,8.712338117
+WeddingCake,PhenoType,10,5.702685923
+WeddingCake,Height,10,3.873331746
+WeddingCake,Width,10,8.727129035
+WeddingCake,Temp,10,
+WeddingCake,NValue,10,
+WeddingCake,PValue,10,48.53017276
+WeddingCake,KValue,10,24.80080808
+WeddingCake,CurrentNDVI,10,
+WeddingCake,GrowthRate,10,35.21127812
+WeddingCake,EC,10,0.9659958412
+WeddingCake,PH,10,21.40479442
+WeddingCake,SoilMoister,10,
+WeddingCake,Humidity,10,
+WeddingCake,WaterUse,10,8.712338117
+WeddingCake,PhenoType,10,5.702685923
+WeddingCake,Height,10,3.873331746
+WeddingCake,Width,10,8.727129035
+WeddingCake,Temp,10,
+WeddingCake,NValue,10,
+WeddingCake,PValue,10,48.53017276
+WeddingCake,KValue,10,24.80080808
+WeddingCake,CurrentNDVI,10,
+WeddingCake,GrowthRate,10,35.21127812
+WeddingCake,EC,10,0.9659958412
+WeddingCake,PH,10,21.40479442
+WeddingCake,SoilMoister,10,
+WeddingCake,Humidity,10,
+WeddingCake,WaterUse,10,8.712338117
+WeddingCake,PhenoType,10,5.702685923
+WeddingCake,Height,10,3.873331746
+WeddingCake,Width,10,8.727129035
+WeddingCake,Temp,10,
+WeddingCake,NValue,10,
+WeddingCake,PValue,10,48.53017276
+WeddingCake,KValue,10,24.80080808
+WeddingCake,CurrentNDVI,10,
+WeddingCake,GrowthRate,10,35.21127812
+WeddingCake,EC,10,0.9659958412
+WeddingCake,PH,10,21.40479442
+WeddingCake,SoilMoister,10,
+WeddingCake,Humidity,10,
+WeddingCake,WaterUse,10,8.712338117
+WeddingCake,PhenoType,10,5.702685923
+WeddingCake,Height,10,3.873331746
+WeddingCake,Width,10,8.727129035
+WeddingCake,Temp,10,
+WeddingCake,NValue,10,
+WeddingCake,PValue,10,48.53017276
+WeddingCake,KValue,10,24.80080808
+WeddingCake,CurrentNDVI,10,
+Gelato,GrowthRate,10,
+Gelato,EC,10,0.380231078
+Gelato,PH,10,19.64533305
+Gelato,SoilMoister,10,
+Gelato,Humidity,10,
+Gelato,WaterUse,10,
+Gelato,PhenoType,10,6.346273886
+Gelato,Height,10,4.124014532
+Gelato,Width,10,
+Gelato,Temp,10,
+Gelato,NValue,10,0.4696178194
+Gelato,PValue,10,48.97684366
+Gelato,KValue,10,25.05925417
+Gelato,CurrentNDVI,10,
+Gelato,GrowthRate,10,
+Gelato,EC,10,0.380231078
+Gelato,PH,10,19.64533305
+Gelato,SoilMoister,10,
+Gelato,Humidity,10,
+Gelato,WaterUse,10,
+Gelato,PhenoType,10,6.346273886
+Gelato,Height,10,4.124014532
+Gelato,Width,10,
+Gelato,Temp,10,
+Gelato,NValue,10,0.4696178194
+Gelato,PValue,10,48.97684366
+Gelato,KValue,10,25.05925417
+Gelato,CurrentNDVI,10,
+Gelato,GrowthRate,10,
+Gelato,EC,10,0.380231078
+Gelato,PH,10,19.64533305
+Gelato,SoilMoister,10,
+Gelato,Humidity,10,
+Gelato,WaterUse,10,
+Gelato,PhenoType,10,6.346273886
+Gelato,Height,10,4.124014532
+Gelato,Width,10,
+Gelato,Temp,10,
+Gelato,NValue,10,0.4696178194
+Gelato,PValue,10,48.97684366
+Gelato,KValue,10,25.05925417
+Gelato,CurrentNDVI,10,
+Gelato,GrowthRate,10,
+Gelato,EC,10,0.380231078
+Gelato,PH,10,19.64533305
+Gelato,SoilMoister,10,
+Gelato,Humidity,10,
+Gelato,WaterUse,10,
+Gelato,PhenoType,10,6.346273886
+Gelato,Height,10,4.124014532
+Gelato,Width,10,
+Gelato,Temp,10,
+Gelato,NValue,10,0.4696178194
+Gelato,PValue,10,48.97684366
+Gelato,KValue,10,25.05925417
+Gelato,CurrentNDVI,10,
+GirlScoutCookie,GrowthRate,10,
+GirlScoutCookie,EC,10,0.143113789
+GirlScoutCookie,PH,10,
+GirlScoutCookie,SoilMoister,10,
+GirlScoutCookie,Humidity,10,
+GirlScoutCookie,WaterUse,10,
+GirlScoutCookie,PhenoType,10,6.735044047
+GirlScoutCookie,Height,10,6.782544395
+GirlScoutCookie,Width,10,
+GirlScoutCookie,Temp,10,
+GirlScoutCookie,NValue,10,
+GirlScoutCookie,PValue,10,42.27917109
+GirlScoutCookie,KValue,10,13.41693508
+GirlScoutCookie,CurrentNDVI,10,
+GirlScoutCookie,GrowthRate,10,
+GirlScoutCookie,EC,10,0.143113789
+GirlScoutCookie,PH,10,
+GirlScoutCookie,SoilMoister,10,
+GirlScoutCookie,Humidity,10,
+GirlScoutCookie,WaterUse,10,
+GirlScoutCookie,PhenoType,10,6.735044047
+GirlScoutCookie,Height,10,6.782544395
+GirlScoutCookie,Width,10,
+GirlScoutCookie,Temp,10,
+GirlScoutCookie,NValue,10,
+GirlScoutCookie,PValue,10,42.27917109
+GirlScoutCookie,KValue,10,13.41693508
+GirlScoutCookie,CurrentNDVI,10,
+GirlScoutCookie,GrowthRate,10,
+GirlScoutCookie,EC,10,0.143113789
+GirlScoutCookie,PH,10,
+GirlScoutCookie,SoilMoister,10,
+GirlScoutCookie,Humidity,10,
+GirlScoutCookie,WaterUse,10,
+GirlScoutCookie,PhenoType,10,6.735044047
+GirlScoutCookie,Height,10,6.782544395
+GirlScoutCookie,Width,10,
+GirlScoutCookie,Temp,10,
+GirlScoutCookie,NValue,10,
+GirlScoutCookie,PValue,10,42.27917109
+GirlScoutCookie,KValue,10,13.41693508
+GirlScoutCookie,CurrentNDVI,10,
+GirlScoutCookie,GrowthRate,10,
+GirlScoutCookie,EC,10,0.143113789
+GirlScoutCookie,PH,10,
+GirlScoutCookie,SoilMoister,10,
+GirlScoutCookie,Humidity,10,
+GirlScoutCookie,WaterUse,10,
+GirlScoutCookie,PhenoType,10,6.735044047
+GirlScoutCookie,Height,10,6.782544395
+GirlScoutCookie,Width,10,
+GirlScoutCookie,Temp,10,
+GirlScoutCookie,NValue,10,
+GirlScoutCookie,PValue,10,42.27917109
+GirlScoutCookie,KValue,10,13.41693508
+GirlScoutCookie,CurrentNDVI,10,
+PurplePunch,GrowthRate,10,
+PurplePunch,EC,10,0.2376431379
+PurplePunch,PH,10,15.91649852
+PurplePunch,SoilMoister,10,
+PurplePunch,Humidity,10,
+PurplePunch,WaterUse,10,
+PurplePunch,PhenoType,10,6.589375361
+PurplePunch,Height,10,5.454590516
+PurplePunch,Width,10,
+PurplePunch,Temp,10,
+PurplePunch,NValue,10,
+PurplePunch,PValue,10,44.8206626
+PurplePunch,KValue,10,16.28144729
+PurplePunch,CurrentNDVI,10,
+PurplePunch,GrowthRate,10,
+PurplePunch,EC,10,0.2376431379
+PurplePunch,PH,10,15.91649852
+PurplePunch,SoilMoister,10,
+PurplePunch,Humidity,10,
+PurplePunch,WaterUse,10,
+PurplePunch,PhenoType,10,6.589375361
+PurplePunch,Height,10,5.454590516
+PurplePunch,Width,10,
+PurplePunch,Temp,10,
+PurplePunch,NValue,10,
+PurplePunch,PValue,10,44.8206626
+PurplePunch,KValue,10,16.28144729
+PurplePunch,CurrentNDVI,10,
+PurplePunch,GrowthRate,10,
+PurplePunch,EC,10,0.2376431379
+PurplePunch,PH,10,15.91649852
+PurplePunch,SoilMoister,10,
+PurplePunch,Humidity,10,
+PurplePunch,WaterUse,10,
+PurplePunch,PhenoType,10,6.589375361
+PurplePunch,Height,10,5.454590516
+PurplePunch,Width,10,
+PurplePunch,Temp,10,
+PurplePunch,NValue,10,
+PurplePunch,PValue,10,44.8206626
+PurplePunch,KValue,10,16.28144729
+PurplePunch,CurrentNDVI,10,
+PurplePunch,GrowthRate,10,
+PurplePunch,EC,10,0.2376431379
+PurplePunch,PH,10,15.91649852
+PurplePunch,SoilMoister,10,
+PurplePunch,Humidity,10,
+PurplePunch,WaterUse,10,
+PurplePunch,PhenoType,10,6.589375361
+PurplePunch,Height,10,5.454590516
+PurplePunch,Width,10,
+PurplePunch,Temp,10,
+PurplePunch,NValue,10,
+PurplePunch,PValue,10,44.8206626
+PurplePunch,KValue,10,16.28144729
+PurplePunch,CurrentNDVI,10,
+PurplePunch,GrowthRate,10,
+PurplePunch,EC,10,0.2376431379
+PurplePunch,PH,10,15.91649852
+PurplePunch,SoilMoister,10,
+PurplePunch,Humidity,10,
+PurplePunch,WaterUse,10,
+PurplePunch,PhenoType,10,6.589375361
+PurplePunch,Height,10,5.454590516
+PurplePunch,Width,10,
+PurplePunch,Temp,10,
+PurplePunch,NValue,10,
+PurplePunch,PValue,10,44.8206626
+PurplePunch,KValue,10,16.28144729
+PurplePunch,CurrentNDVI,10,
+OGKush,GrowthRate,10,33.48374362
+OGKush,EC,10,1.342979115
+OGKush,PH,10,
+OGKush,SoilMoister,10,
+OGKush,Humidity,10,
+OGKush,WaterUse,10,7.587388409
+OGKush,PhenoType,10,5.321042724
+OGKush,Height,10,3.281424538
+OGKush,Width,10,7.498392197
+OGKush,Temp,10,31.46261111
+OGKush,NValue,10,
+OGKush,PValue,10,51.1719374
+OGKush,KValue,10,25.05030719
+OGKush,CurrentNDVI,10,35.0477841
+OGKush,GrowthRate,10,33.48374362
+OGKush,EC,10,1.342979115
+OGKush,PH,10,
+OGKush,SoilMoister,10,
+OGKush,Humidity,10,
+OGKush,WaterUse,10,7.587388409
+OGKush,PhenoType,10,5.321042724
+OGKush,Height,10,3.281424538
+OGKush,Width,10,7.498392197
+OGKush,Temp,10,31.46261111
+OGKush,NValue,10,
+OGKush,PValue,10,51.1719374
+OGKush,KValue,10,25.05030719
+OGKush,CurrentNDVI,10,35.0477841
+OGKush,GrowthRate,10,33.48374362
+OGKush,EC,10,1.342979115
+OGKush,PH,10,
+OGKush,SoilMoister,10,
+OGKush,Humidity,10,
+OGKush,WaterUse,10,7.587388409
+OGKush,PhenoType,10,5.321042724
+OGKush,Height,10,3.281424538
+OGKush,Width,10,7.498392197
+OGKush,Temp,10,31.46261111
+OGKush,NValue,10,
+OGKush,PValue,10,51.1719374
+OGKush,KValue,10,25.05030719
+OGKush,CurrentNDVI,10,35.0477841
+OGKush,GrowthRate,10,33.48374362
+OGKush,EC,10,1.342979115
+OGKush,PH,10,
+OGKush,SoilMoister,10,
+OGKush,Humidity,10,
+OGKush,WaterUse,10,7.587388409
+OGKush,PhenoType,10,5.321042724
+OGKush,Height,10,3.281424538
+OGKush,Width,10,7.498392197
+OGKush,Temp,10,31.46261111
+OGKush,NValue,10,
+OGKush,PValue,10,51.1719374
+OGKush,KValue,10,25.05030719
+OGKush,CurrentNDVI,10,35.0477841
+JackHerer,GrowthRate,10,
+JackHerer,EC,10,1.354544505
+JackHerer,PH,10,22.18656336
+JackHerer,SoilMoister,10,
+JackHerer,Humidity,10,
+JackHerer,WaterUse,10,10.09216481
+JackHerer,PhenoType,10,5.942396391
+JackHerer,Height,10,4.833005616
+JackHerer,Width,10,10.91758853
+JackHerer,Temp,10,
+JackHerer,NValue,10,3.012855316
+JackHerer,PValue,10,57.00008288
+JackHerer,KValue,10,11.61829119
+JackHerer,CurrentNDVI,10,
+JackHerer (excluding high income),GrowthRate,10,
+JackHerer (excluding high income),EC,10,1.290917438
+JackHerer (excluding high income),PH,10,21.86467826
+JackHerer (excluding high income),SoilMoister,10,
+JackHerer (excluding high income),Humidity,10,
+JackHerer (excluding high income),WaterUse,10,9.237420396
+JackHerer (excluding high income),PhenoType,10,6.043534957
+JackHerer (excluding high income),Height,10,4.868760993
+JackHerer (excluding high income),Width,10,9.773227687
+JackHerer (excluding high income),Temp,10,
+JackHerer (excluding high income),NValue,10,2.835353269
+JackHerer (excluding high income),PValue,10,56.6324263
+JackHerer (excluding high income),KValue,10,11.42461919
+JackHerer (excluding high income),CurrentNDVI,10,
+JackHerer,GrowthRate,10,
+JackHerer,EC,10,1.354544505
+JackHerer,PH,10,22.18656336
+JackHerer,SoilMoister,10,
+JackHerer,Humidity,10,
+JackHerer,WaterUse,10,10.09216481
+JackHerer,PhenoType,10,5.942396391
+JackHerer,Height,10,4.833005616
+JackHerer,Width,10,10.91758853
+JackHerer,Temp,10,
+JackHerer,NValue,10,3.012855316
+JackHerer,PValue,10,57.00008288
+JackHerer,KValue,10,11.61829119
+JackHerer,CurrentNDVI,10,
+JackHerer (excluding high income),GrowthRate,10,
+JackHerer (excluding high income),EC,10,1.290917438
+JackHerer (excluding high income),PH,10,21.86467826
+JackHerer (excluding high income),SoilMoister,10,
+JackHerer (excluding high income),Humidity,10,
+JackHerer (excluding high income),WaterUse,10,9.237420396
+JackHerer (excluding high income),PhenoType,10,6.043534957
+JackHerer (excluding high income),Height,10,4.868760993
+JackHerer (excluding high income),Width,10,9.773227687
+JackHerer (excluding high income),Temp,10,
+JackHerer (excluding high income),NValue,10,2.835353269
+JackHerer (excluding high income),PValue,10,56.6324263
+JackHerer (excluding high income),KValue,10,11.42461919
+JackHerer (excluding high income),CurrentNDVI,10,
+JackHerer,GrowthRate,10,
+JackHerer,EC,10,1.354544505
+JackHerer,PH,10,22.18656336
+JackHerer,SoilMoister,10,
+JackHerer,Humidity,10,
+JackHerer,WaterUse,10,10.09216481
+JackHerer,PhenoType,10,5.942396391
+JackHerer,Height,10,4.833005616
+JackHerer,Width,10,10.91758853
+JackHerer,Temp,10,
+JackHerer,NValue,10,3.012855316
+JackHerer,PValue,10,57.00008288
+JackHerer,KValue,10,11.61829119
+JackHerer,CurrentNDVI,10,
+JackHerer (excluding high income),GrowthRate,10,
+JackHerer (excluding high income),EC,10,1.290917438
+JackHerer (excluding high income),PH,10,21.86467826
+JackHerer (excluding high income),SoilMoister,10,
+JackHerer (excluding high income),Humidity,10,
+JackHerer (excluding high income),WaterUse,10,9.237420396
+JackHerer (excluding high income),PhenoType,10,6.043534957
+JackHerer (excluding high income),Height,10,4.868760993
+JackHerer (excluding high income),Width,10,9.773227687
+JackHerer (excluding high income),Temp,10,
+JackHerer (excluding high income),NValue,10,2.835353269
+JackHerer (excluding high income),PValue,10,56.6324263
+JackHerer (excluding high income),KValue,10,11.42461919
+JackHerer (excluding high income),CurrentNDVI,10,
+JackHerer,GrowthRate,10,
+JackHerer,EC,10,1.354544505
+JackHerer,PH,10,22.18656336
+JackHerer,SoilMoister,10,
+JackHerer,Humidity,10,
+JackHerer,WaterUse,10,10.09216481
+JackHerer,PhenoType,10,5.942396391
+JackHerer,Height,10,4.833005616
+JackHerer,Width,10,10.91758853
+JackHerer,Temp,10,
+JackHerer,NValue,10,3.012855316
+JackHerer,PValue,10,57.00008288
+JackHerer,KValue,10,11.61829119
+JackHerer,CurrentNDVI,10,
+JackHerer (excluding high income),GrowthRate,10,
+JackHerer (excluding high income),EC,10,1.290917438
+JackHerer (excluding high income),PH,10,21.86467826
+JackHerer (excluding high income),SoilMoister,10,
+JackHerer (excluding high income),Humidity,10,
+JackHerer (excluding high income),WaterUse,10,9.237420396
+JackHerer (excluding high income),PhenoType,10,6.043534957
+JackHerer (excluding high income),Height,10,4.868760993
+JackHerer (excluding high income),Width,10,9.773227687
+JackHerer (excluding high income),Temp,10,
+JackHerer (excluding high income),NValue,10,2.835353269
+JackHerer (excluding high income),PValue,10,56.6324263
+JackHerer (excluding high income),KValue,10,11.42461919
+JackHerer (excluding high income),CurrentNDVI,10,
+Sherbert,GrowthRate,10,
+Sherbert,EC,10,1.329124336
+Sherbert,PH,10,22.18656336
+Sherbert,SoilMoister,10,
+Sherbert,Humidity,10,
+Sherbert,WaterUse,10,9.61786347
+Sherbert,PhenoType,10,6.01462187
+Sherbert,Height,10,4.7533047
+Sherbert,Width,10,10.20928289
+Sherbert,Temp,10,
+Sherbert,NValue,10,3.012855316
+Sherbert,PValue,10,56.58199381
+Sherbert,KValue,10,11.16688466
+Sherbert,CurrentNDVI,10,
+Sherbert,GrowthRate,10,
+Sherbert,EC,10,1.329124336
+Sherbert,PH,10,22.18656336
+Sherbert,SoilMoister,10,
+Sherbert,Humidity,10,
+Sherbert,WaterUse,10,9.61786347
+Sherbert,PhenoType,10,6.01462187
+Sherbert,Height,10,4.7533047
+Sherbert,Width,10,10.20928289
+Sherbert,Temp,10,
+Sherbert,NValue,10,3.012855316
+Sherbert,PValue,10,56.58199381
+Sherbert,KValue,10,11.16688466
+Sherbert,CurrentNDVI,10,
+Sherbert,GrowthRate,10,
+Sherbert,EC,10,1.329124336
+Sherbert,PH,10,22.18656336
+Sherbert,SoilMoister,10,
+Sherbert,Humidity,10,
+Sherbert,WaterUse,10,9.61786347
+Sherbert,PhenoType,10,6.01462187
+Sherbert,Height,10,4.7533047
+Sherbert,Width,10,10.20928289
+Sherbert,Temp,10,
+Sherbert,NValue,10,3.012855316
+Sherbert,PValue,10,56.58199381
+Sherbert,KValue,10,11.16688466
+Sherbert,CurrentNDVI,10,
