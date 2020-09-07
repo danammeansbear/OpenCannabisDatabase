@@ -1,7 +1,7 @@
-Central State University Precision Ag and Robot Cowboy Imaging are currrent Sponsers. 
-
-Red bull is an unoffical sponser but has been very important.
+ Central State University Precision Ag and Robot Cowboy Imaging are currrent Sponsers
 -------------------------------------------------------
+Redbull also is very dear to our hearts but sadly we are unsponsered :( 
+
 Hello and Welcome."Whatever you do in life wont matter but its important you do it anyway" Ghandi apparently.
 Basically this is the starting point for making an opensource database for cannabis and hemp growing research. 
 If you are trying to go through thousands of plants and images or are just trying to plan a greenhouse project this is where you should start.
