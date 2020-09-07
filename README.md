@@ -1,4 +1,4 @@
- Central State University Precision Ag and Robot Cowboy Imaging are currrent Sponsers
+ Thank you Central State University Precision Ag for letting us use your grow rooms and hemp plants!
 -------------------------------------------------------
 Redbull also is very dear to our hearts but sadly we are unsponsered :( 
 
