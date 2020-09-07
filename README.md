@@ -1,6 +1,10 @@
-# Adamsplantprocessing
+Hello and Welcome. Basically this is the starting point for making an opensource database for cannabis and hemp growing research. 
+If you are trying to go through thousands of plants and images or are just trying to plan a greenhouse project this is where you should start.
+Basically I created a csv file as a base that anyone can add to. I am also encouraging anyone to upload pictures along with them.
+You can think of the CSV file as a grow journal. Currently writting this between classes and work, so I plan on adding features daily at discreation. 
+The Goal is to have Open Source Prediction Tools for Plant Proccesing with A.I. in mind. 
 
-
+--------------------------------------------------------
 You will need the lastest version of Anaconda.
 you will need unity 2019.2.5f1 from the unity hub arcive. 
 you will need Visual Studio 2017 and 2019.
