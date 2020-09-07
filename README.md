@@ -1,3 +1,7 @@
+"Whatever you do in life wont matter but its important you do it anyway" Ghandi apparently. 
+Central State University Precision Ag and Robot Cowboy Imaging are currrent Sponsers. 
+Red bull is an unoffical sponser but has been very important.
+-------------------------------------------------------
 Hello and Welcome. Basically this is the starting point for making an opensource database for cannabis and hemp growing research. 
 If you are trying to go through thousands of plants and images or are just trying to plan a greenhouse project this is where you should start.
 Basically I created a csv file as a base that anyone can add to. I am also encouraging anyone to upload pictures along with them.
