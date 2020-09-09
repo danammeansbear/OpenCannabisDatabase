@@ -57,7 +57,7 @@ class NDVI(object):
         fig.savefig(self.output_name, dpi=600, transparent=True, bbox_inches=extent, pad_inches=0)
         # plt.show()
 
-
+#example command line  python ndvi.py -i mt.jpg -o mtndvi.jpg
 def main(argv):
     try:
         opts, args = getopt.getopt(argv, "i:o:c", ["input_file=", "output_file=", "colors"])
