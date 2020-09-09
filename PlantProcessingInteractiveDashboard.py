@@ -4,7 +4,7 @@ Created on Fri Sep  4 11:15:49 2020
 
 @author: adam
 """
-
+import os
 import serial
 import time
 import dash
@@ -12,59 +12,24 @@ import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
 import plotly.express as px
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
+from csv import writer
 
-# set up the serial line
-def displaySerial():
-    ser = serial.Serial(
-    port='COM3',
-    baudrate=9600,
-    parity=serial.PARITY_NONE,
-    stopbits=serial.STOPBITS_ONE,
-    bytesize=serial.EIGHTBITS,
-    timeout=1)
-    time.sleep(2)
-   
-    
-    # Read and record the data
-    data =[]                       # empty list to store the data
-    for i in range(50):
-        
-        b = ser.readline() 
-       # ser.open()
-       # ser.isOpen()        # read a byte string
-        string_n = b.decode()  # decode byte string into Unicode  
-        string = string_n.rstrip() # remove \n and \r
-        words = string.split()
-        intimade = words[1].translate('!:@#$')
-        dict(map(str.strip, line.split(':', 1)) for line in intimade.splitlines())
-        flt = float(intimade[3])        # convert string to float
-        #print(flt)
-        data.append(string)           # add to the end of data list
-        time.sleep(0.1)            # wait (sleep) 0.1 seconds
-        
-    
-    for line in data:
-        return line
-    
-    
-    
+file_name = 'C:/Users/adam/Desktop/hemp_cannabis.csv'
     
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 #df = pd.read_csv('https://plotly.github.io/datasets/country_indicators.csv')
-df = pd.read_csv('C:/Users/adam/Desktop/hemp_cannabis.csv')
+df = pd.read_csv(file_name)
 available_indicators = df['Indicator Name'].unique()
 
 app.layout = html.Div([
     html.Div([
 
         html.Div([
-            html.Button('Start Server', id='btn-nclicks-1', n_clicks=0),
-            html.Button('Start Camera', id='btn-nclicks-2', n_clicks=0),
-            html.Button('Button 3', id='btn-nclicks-3', n_clicks=0),
+            
             html.Div(id='container-button-timestamp'),
             dcc.Dropdown(
                 id='crossfilter-xaxis-column',
@@ -118,8 +83,49 @@ app.layout = html.Div([
         value=df['Day'].max(),
         marks={str(Day): str(Day) for Day in df['Day'].unique()},
         step=None
-    ), style={'width': '49%', 'padding': '0px 20px 20px 20px'})
+    ), style={'width': '49%', 'padding': '0px 20px 20px 20px'}),
+    html.Div([html.Video(src='/static/my-video.webm'),
+            html.Button('Start Server', id='btn-nclicks-1', n_clicks=0),
+            html.Button('Start Camera', id='btn-nclicks-2', n_clicks=0),
+            html.Button('Button 3', id='btn-nclicks-3', n_clicks=0),
+            html.Label('PlantName,Indicator Name,Day,Value'),
+            dcc.Input(id='input-1-state', type='text', value='CsvFile'),
+            html.Button(id='submit-button-state', n_clicks=0, children='Submit'),
+            html.Label('-i nameof.file -o nameofnew.file'),
+            dcc.Input(id='input-2-state', type='text', value='ndvifile'),
+            html.Button(id='submit-button-state2', n_clicks=0, children='Submit'),
+            html.Div(id='output-state'),
+            html.Div(id='output2-state')],)
 ])
+    
+
+
+@app.callback(Output('output2-state', 'children'),
+              [Input('submit-button-state2', 'n_clicks')],
+              [State('input-2-state', 'value')])
+def update_output2(n_clicks, input2):
+    os.system('python ndvi.py ' + input2)
+    return u'''
+        The Button has been pressed {} times,
+        Input 1 is "{}"
+        
+    '''.format(n_clicks, input2)
+        
+@app.callback(Output('output-state', 'children'),
+              [Input('submit-button-state', 'n_clicks')],
+              [State('input-1-state', 'value')])
+def update_output(n_clicks, input1):
+    file = open('C:/Users/adam/Desktop/hemp_cannabis.csv','a')
+    file.write('\n')
+    file.write(input1)
+
+    file.close()
+    #append_list_as_row(file_name, input1)
+    return u'''
+        The Button has been pressed {} times,
+        Input 1 is "{}"
+        
+    '''.format(n_clicks, input1)
 
 
 @app.callback(
@@ -212,6 +218,52 @@ def displayClick(btn1, btn2, btn3):
     else:
         msg = 'None of the buttons have been clicked yet'
     return html.Div(msg)
+
+
+def append_list_as_row(file_name, input1):
+    # Open file in append mode
+    file_name = 'C:/Users/adam/Desktop/hemp_cannabis.csv'
+    with open(file_name, 'a+', newline='') as write_obj:
+        # Create a writer object from csv module
+        csv_writer = writer(write_obj)
+        # Add contents of list as last row in the csv file
+        csv_writer.writerow(input1)
+
+# set up the serial line
+def displaySerial():
+    ser = serial.Serial(
+    port='COM3',
+    baudrate=9600,
+    parity=serial.PARITY_NONE,
+    stopbits=serial.STOPBITS_ONE,
+    bytesize=serial.EIGHTBITS,
+    timeout=1)
+    time.sleep(2)
+   
+    
+    # Read and record the data
+    data =[]                       # empty list to store the data
+    for i in range(50):
+        
+        b = ser.readline() 
+       # ser.open()
+       # ser.isOpen()        # read a byte string
+        string_n = b.decode()  # decode byte string into Unicode  
+        string = string_n.rstrip() # remove \n and \r
+        words = string.split()
+        intimade = words[1].translate('!:@#$')
+        dict(map(str.strip, line.split(':', 1)) for line in intimade.splitlines())
+        flt = float(intimade[3])        # convert string to float
+        #print(flt)
+        data.append(string)           # add to the end of data list
+        time.sleep(0.1)            # wait (sleep) 0.1 seconds
+        
+    
+    for line in data:
+        return line
+    
+    
+    
 
 
 
