@@ -2,6 +2,9 @@
 -------------------------------------------------------
 Redbull also is very dear to our hearts but sadly we are unsponsered :( 
 
+youtube tutorial
+https://www.youtube.com/watch?v=43b2YoLb2Io
+
 Hello and Welcome."Whatever you do in life wont matter but its important you do it anyway" Ghandi apparently.
 Basically this is the starting point for making an opensource database for cannabis and hemp growing research. 
 If you are trying to go through thousands of plants and images or are just trying to plan a greenhouse project this is where you should start.
