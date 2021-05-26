@@ -1,0 +1,168 @@
+Controlling and forecasting environmental variables is usually a key and complex part of a greenhouse management architecture. With Food Deserts and more affluent worldwide populations, agricultural crop yields will need to increase significantly by 2050 (Ray et al., 2013, Gerland et al., 2014, Washington et al 2019, Dabdoub et al). This will also cross over into the medical cannabis field where an increase in acceptable use and thus an increase in the need for more products. Sustainably increasing biomass in the face of changing environments (IPCC, 2014), and doing so with a smaller impact on the environment, is one of the most pressing global challenges of the 21st century. With the changing climate, more and more episodes of Patrice, drought, and damage due to precipitation extremes will limit agricultural productivity (IPCC, 2014). Salinization of agricultural lands and low soil fertility are also increasingly important limitations to crop productivity in many regions.
+
+This leads us to two solutions. Indoor grow environments or greenhouses. A greenhouse inner micro-climate, which is the result of an extensive set of interrelated environmental variables influenced by external weather conditions, has to be tightly monitored, regulated, and, sometimes, forecasted. Today, Agricultural Sensor Networks (ASNs) and Artificial Intelligence (A.I.) are two of the most successful technologies to deal with this challenge. In this paper, we discuss architecture or set of methods for how using data lakes and Engineering methods, acting as a collector for sensor data coming from an ASN installed in a greenhouse, could be enriched with a Neural Network (NN) and Answer set programming (ASP)-based prediction model allowing to forecast a cultivars growth, environmental variable change based on biometric feedback and other actuating methods. Sensors are ambiguous. There are sensors for Air quality, temperature, and nutrient content of water. These are standards. One should also think of cameras as being agricultural sensors to give A.I. more background knowledge on what is going on. Sensors are also expensive and we want to be sustainable. It is in my finding that microclimates in greenhouses are best measured by a few Thermal cameras. You can monitor more precisely where your environment is having issues and it is cheaper than using multiple types of temperature sensors to get an idea of air, canopy, and soil temps. Standard Cameras are also good. Visible light (RGB) imaging facilitates measurement of plant’s morphological traits such as biomass, height, width, color, number of leaves, and roots to estimate plant growth rate, health, nutrition status, drought stress, water-use efficiency, nutrient use efficiency, and early vigor [1–4]. 3D imaging can additionally measure traits such as leaf angle and leaf area which affect the photosynthesis efficiency of the plants [5–7]. This 3D imaging can also be used to measure flower's and bud's sizes. Hyperspectral, thermal, near-infrared (NIR), and fluorescent cameras are sensational for detecting biomass abiotic and biotic stresses [8–12]. While RGB imaging is a common feature in most facilities, some also offer fluorescence, thermal, NIR, or UV imaging. Several freely available software programs are available for image analysis [13] such as HYPhens [14], PlantCV [3], Easy Leaf Area [15], Integrated Analysis Platform [16], ImageHarvest [17], and Canopy [18].
+Whole plant biomass and growth rate at the seedling stage are traits that correlate well with early vigor and can be estimated by HTP in cereal crops. Higher early vigor is associated with higher water-use efficiency [19], nitrogen and phosphate uptake [20, 21], and weed competition [22]. 3D imaging with a NIR camera was used to measure early vigor traits such as leaf length and width and tillering in wheat [5]. Thus, HTTP can aid in the evaluation of plants for early vigor based on plant biomass and growth rate both in the controlled conditions [17, 20, 23–26] and in the field [4, 26–28].
+Major limiting factors for HTP in the controlled conditions are access to an imaging facility or the costs for establishing one which often also include having staff able to create such a product. This often makes such facilities creating their own to provide phenotyping as a service and when a high-throughput and continuous use of the facility is anticipated. A low-cost phenotyping facility could be a viable alternative when (i) access to a high-throughput facility is unavailable, (ii) phenotyping occasionally for small-scale projects, and (iii) phenotyping is done in controlled environments with constrained spaces. Several custom-made affordable imaging systems have been developed for studying drought stress in wheat [29] biotic stress and magnesium deficiency in common beans [30], cold tolerance in pea [31], and biomass in sorghum [32]. A review of various imaging systems and the studied traits was recently published [1]. To be cost-effective, sustainable, and time-efficient, a low-cost phenotyping system must produce reproducible results with an easy automation script. 
+ In the case of missing sensor data coming from the ASN, the proposed prediction algorithm, fed with metro statistical open data (gathered from the DarkSky repository), is run on the GW to predict the missing values. This can collect data point values and be implemented in the cloud to streamline data across the board, not just locally, and keeping it fast on a majority of devices provides the cost-effectively ware, to support the management of a greenhouse. Experimental Affected that the NN-based prediction algorithm can forecast Biomass data collection points such as PH, EC, humidity, temperature, ETC with a Root Mean Square Error (RMSE) of,1.50 °C, a Mean Absolute Percentage Error (MAPE) of 4.91%, and an R2 score of 0.965. Using answer set programming, we can increase the speed of the prediction 10 fold. 
+
+
+The Idea of putting AI behind crop steerienvironmentalisn’t relatively new. It has been a proposed problem since the Idea of being in space. The new thing is t, the speeds of the supporting tech knowledge and using answer set programming in conjunction with NN's and ASNs There in fact were an extreme amount of statical models developed in the early 70s and 2000s. Albright et al. Stated to gain full immersive control of a greenhouse environment is the main goal for sustainability in crop management. We must start investigating the environment deeper and use better methods to analyze micro-climates cost effectively and efficiently. Peet et al reveal that the plant biomass production were affected by daily canopy temperature. If it increased from around 25 C to 29 C a greenhouse microclimate model which can predict indoor and outdoor air temps, relative humidity and transpiration under the influence of the given ventilation and evaporation cooling systems is proposed by boulard and baillie. Jolliet presents a model with humidity control systems and this can predict the environmental condition of a greenhouse such as the VPD or vapor pressure deficit, the relative humidity, inside condensation and more. Vollebregt [13]described a simple method for analyzing heat flows by combining steady-state heat balance calculations and an airflow simulation model near the greenhouse wall with the adjacent heating system. The optical and geometrical properties of the greenhouse surface determined the radiation absorption factor. This simulation model demonstrated that heat released by heating pipes which is about 20% absorbed by the greenhouse wall and validated its' accuracy by comparing simulated and observed data. De Zwart [14] proposed a mechanistic dynamic model (KASPRO) with sixteen state variables including air temperature (considering unsteady-state balances) for greenhouse cover, air above and below a thermal screen, on crop canopy, near ground and six layers of soil, carbon dioxide concentration and humidity/water vapor or partial vapor pressure (mass balances were considered above and below a thermal screen). The daily leaf wetness duration was derived from a one-dimensional numerical model [15] and hourly microclimate conditions such as leaf temperature, greenhouse air temperature, and relative humidity were measured for predicting an unheated greenhouse microclimate environment. Furthermore, a model derived from the Penman-Monteith equation can predict the linear relationship of the crop transpiration and VPD with higher accuracy of >2.5 KPa [16]. Pieters and Deltour [17] investigated the greenhouse solar energy absorbing efficiency for cultivating the year-round tomato crop inside a greenhouse. The solar energy absorption efficiency mostly depends on location and shape of the greenhouse. Moreover, most of the solar energy inside the greenhouse was absorbed by the plant community. The reduction of solar energy flux transmission due to the hemispherical drops further increases an energy demand by 2.8%. After many years of research, today simple ON-OFF actuators of crop-specific controllers for exhaust fan, ventilation opening, curtain, heater and water pump can reach the desirable set-points.
+Various researchers carried out research to increase the crop yield, improve the yield quality or decrease the energy consumption for boosting the cost effectiveness for agricultural management and competitiveness in the market. The greenhouse type varies in structural shape, size, and glazing materials, and in the various types of equipment to fulfill the specific environmental needs of various crops. Some researcher advised removing the
+greenhouse cover throughout the year, but this adds an extra expense. It is necessary, reducing the inside greenhouse temperature or regulate the temperature closer to the ambient temperature time for successful crop cultivation during the summer. Lee et al. [18] reported that in new control concept based on qualitative control approach enhancing the greenhouse crop yield. In this new approach, various control variables and their degree of uniformity are used as an indicator for the real-time thermal monitoring system and thus made possible the development of precise control system for a greenhouse with a wide area. Furthermore, they proposed several alternatives for greenhouse environment control based on multi-sensor node system and recommending a more thermally stable cultivating environment. The experimental findings demonstrated that a simple change on the type of heating system can cause the 80% non-uniformity of temperature. However, this nonuniformity is possible to reduce to 90% by controlling the microclimate heat flux. One of the several variants of local heat flux control
+system is the mass flow control valve system which demonstrated the best performance [18]. The proposed multiple sensor node system enhanced the yield with better quality and reduced energy input cost. The availability of the diverse range of sensors and actuators and the recent advancement in wireless sensor technologies with miniaturized sensor devices, it is now
+possible to deploy Agricultural sensor network (ASN) for automatic monitoring and controlling the environmental parameters in a greenhouse. Fig. 2 shows the influence of environment control variables on a greenhouse. Dragicevic [21] presents a mathematical approach for
+determining the optimum orientation of an uneven-span type solar greenhouse for various climates. The main advantage of the uneven-span type solar greenhouse is
+that the maximum amount of solar radiation reached inside the greenhouse at all latitudes throughout the year compare with other shapes [22]. Dragicevic [21] experimentally validated the result and reported that both measured and calculated values are closely related with one other. From this model, it's revealed that EW orientation received more radiation in the winter and fewer in the summer with small differences. Fig. 3 demonstrated the orientation and sectional details of an uneven-span shape greenhouse. Enrichment of CO2 requires closing the ventilation and considering other sorts of cooling and dehumidifying mechanism, although, maintaining favorable microclimate inside a greenhouse. For cooling and dehumidifying process, the ventilation in most cases considered by default. But this process contradicts with
+CO2 enrichment, as CO2 can escape through the ventilation openings. Effat et al. [23] formulated, solved, and analyzed a mathematical model for CO2 capturing performance of solar greenhouses, in both ventilated and closed conditions. Fig. 4 demonstrates the greenhouse CO2 enrichment based conceptual model. Singh et al. [24] constructed a naturally ventilated
+double-span greenhouse (North-South direction) as shown in Fig. 5 and described a microclimate model for cultivating cucumber crop involving heat and mass transfer between various elements of a greenhouse and furthermore, evaluating the performance by comparing
+predicted and observed data. Fig. 5 (a) A naturally ventilated double-span north-south oriented greenhouse and (b) Sensors position [24]. Singh et al. [25] reported that the leaf temperature of
+the cucumber significantly increased with height in the plant community. The maximum temperature difference between the leaf and air correlated with the maximum
+solar radiation. The canopy of cucumber plant intercepted more solar radiation than growing medium and due to this, the cucumber plant temperature was higher than the growing medium. According to Hashimoto and Morimoto [26], Yang et al. [27], and von Zabeltitz [28], for adequate transpiration, the leaf temperature inside the greenhouse should be higher than the air temperature by 5.0 to 10 °C with proper circulation. For optimal development, it is necessary to
+maintain the growing medium temperature within the range of 16.9 to 22.9°C [29].
+Combining automated, controlled-environment plant growth with high-throughput, non-destructive imaging and is representative of the next wave of phenotyping platforms aimed at relieving bottlenecks of phenomics data collection. Following data collection, image processing and trait analysis are the next barrier to understanding the underlying biology in high-throughput phenotyping data. Standardized methods for processing image-based, high-throughput plant phenomics data lag behind high-throughput sequencing analysis tools in part because of the variety of commercial and non-commercial platforms used, the numerous research focus areas, and the variety of species and treatments. There is a growing plant phenomics community (http://www.plant-phenotyping.org/) and an excellent database of both commercial and open-source plant image processing software (http://www.plant-image-analysis.org/; Lobet et al., 2013). PlantCV is written in a scripting language that has been shown to be accessible to biologists (Mangalam, 2002, Dudley and Butte, 2009), is compatible with a variety of image types and sources, and has a community contribution schema that has been successful for other bioinformatics resources (Oliphant, 2007, Hunter, 2007).
+
+4. CONCLUSIONS
+This paper reviewed a sequential development of the greenhouse environment control system. Most of the recently developed greenhouse environmental control system is focused on optimization and integration of various sorts of sensors, low cost sensing and data
+transfer mechanisms, active and passive heating-cooling systems, light diffusive greenhouse covers and cultivation techniques. A selective review of research has been conducted for assessing the use of this on cannabis and hemp specifically and offers detailed insights into the different Technological development and their influence on the optimum control of the greenhouse environment compared to polygardens.
+ACKNOWLEDGMENT
+The Writer is an Employee of Cresco Labs and a patent holder for the Central State University. He has spent the last 8 years studying Robotics, Artificial Intelligence and Hydroponic systems working for various Companies like AFRL, UDRI, Central State University and Aptima Engineering. 
+REFERENCES
+[1] UN World Population Prospects Report Website,
+https :/ /www.un.org/ en/ development/ desa/publications/w
+orld-population-prospects-2015-revision.html
+[2] FAQ Website,
+http://www.fao.org/3/ca5162en/ca5162en.pdf
+[3] FAQ Website,
+View publication stats
+http://www. fao. org/3/a-i2228e. pdf
+[4] C. S. Allardyce, C. Fankhauser, S. M. Zakeeruddin,
+M. Gratzel, P. J. Dyson, "The influence of
+greenhouse-integrated photovoltaics on crop
+production", Solar Energy, Vol. 155,pp. 517-522, 2017.
+[5] A Vadiee, V. Martin, "Energy analysis and
+thermoeconomic assessment of the closed greenhouse -
+The largest commercial solar building", Applied Energy,
+Vol.102,pp. 1256-1266,2013.
+[6] D. Savvas, G.P. Gianquinto, Y. Twizel, N. Gruda,
+"Soilless Culture. In: Good agricultural practices for
+greenhouse vegetable crops. Principles for
+Mediterranean climate areas", FAO, Plant Production
+and Protection Paper, Rome, 2013.
+[7] L.D. Albright, R.G. Reines, S.E. Anderson, P.
+Chandra, Experimental results of solar heating a brace
+institute style greenhouse, SEHG, USA; 1978.
+[8] M.M. Peet, D.H. Willits, A.E. Gardner, "Response of
+ovule development and post-pollen production
+processes in male-sterile tomatoes to chronic, sub-acute
+high temperature stress", Journal of Experimental
+Botany, Vol. 48, No. 306, pp. 101-111, 1997.
+[9] T. Boulard, A Baille, "A simple greenhouse climate
+control model incorporating effects of ventilation and
+evaporative cooling", Agricultural and Forest
+Meteorology, Vol. 65, No. 3, pp.145-157, 1993.
+[ 10] T. Takakura, Climate under cover, digital dynamic
+simulation in plant bioengineering, Kluwer Academic
+Pub., The Netherlands, 1993.
+[11] T. Takakura, W. Fang, Climate Under Cover,
+Kluwer Academic Publishers, 2002.
+[12] 0. H. Jolliet, "A model for predicting and
+optimizing humidity and transpiration on greenhouses",
+Journal of Agricultural Engineering Research, Vol. 57,
+pp. 23-37, 1994.
+[13] H.J.M. Vollebregt, N.J.V. Baraak, "Analysis of
+radiative and convection heat exchange at greenhouse
+walls", Journal of Agricultural Engineering Research,
+Vol. 60, No. 2, pp. 99-106, 1995.
+[14] H.F. De Zwart, Analyzing energy-saving options
+in greenhouse cultivation using a simulation model,
+Wageningen; 1996.
+[15] T. Zhang, T.E. Osterkamp, K. Starnnes, Effects of
+Climate on the Active Layer and Permafrost on the
+North Slope of Alaska, U.S.A., 1997.
+[16] P. Lorenzo, E. Medrano, M.C. Sanchez-Guerrero,
+"Greenhouse crop transpiration: an implement to
+soilless irrigation management", Acta Horticulturae, Vol.
+458,pp. 113-122, 1998.
+[17] J. Pieters, J. Deltour, "Modelling solar energy
+input in greenhouses", Solar Energy, Vol. 67, No. 1-3,
+pp. 119-130, 1999.
+[18] C.K. Lee, M. Chung, K. Shin, Y. Im, S. Yoon, "A
+study of the effects of enhanced uniformity control of
+greenhouse environment variables on cop growth",
+Energies, Vol. 12, No. 1749, pp. 1-24, 2019.
+[19] M. Baek, M. Lee, H. Kim, J. Park, Y. Cho, C. Shin,
+"A Study on Greenhouse Management Framework for
+Intelligent Control Service of Greenhouse",
+[20]Schneider, D., Lopez, L.S., Li, M. et al. Fluctuating light experiments and semi-automated plant phenotyping enabled by self-built growth racks and simple upgrades to the IMAGING-PAM. Plant Methods 15, 156 (2019). https://doi.org/10.1186/s13007-019-0546-1,
+[21]J. F. Humplík, D. Lazár, A. Husičková, and L. Spíchal, “Automated phenotyping of plant shoots using imaging methods for analysis of plant stress responses - A review,” Plant Methods, vol. 11, no. 1, article no. 29, 2015.
+View at: Publisher Site | Google Scholar
+[22]D. Chen, K. Neumann, S. Friedel et al., “Dissecting the phenotypic components of crop plant growth and drought responses based on high-throughput image analysis w open,” The Plant Cell, vol. 26, no. 12, pp. 4636–4655, 2014.
+View at: Publisher Site | Google Scholar
+[23]N. Fahlgren, M. Feldman, M. A. Gehan et al., “A versatile phenotyping system and analytics platform reveals diverse temporal responses to water availability in Setaria,” Molecular Plant, vol. 8, no. 10, pp. 1520–1535, 2015.
+View at: Publisher Site | Google Scholar
+[24]S. Kipp, B. Mistele, P. Baresel, and U. Schmidhalter, “High-throughput phenotyping early plant vigour of winter wheat,” European Journal of Agronomy, vol. 52, pp. 271–278, 2014.
+View at: Publisher Site | Google Scholar
+[25]T. Duan, S. C. Chapman, E. Holland, G. J. Rebetzke, Y. Guo, and B. Zheng, “Dynamic quantification of canopy structure to characterize early plant vigour in wheat genotypes,” Journal of Experimental Botany, vol. 67, no. 15, pp. 4523–4534, 2016.
+View at: Publisher Site | Google Scholar
+[26]S. Paulus, J. Behmann, A.-K. Mahlein, L. Plümer, and H. Kuhlmann, “Low-cost 3D systems: Suitable tools for plant phenotyping,” Sensors, vol. 14, no. 2, pp. 3001–3018, 2014.
+View at: Publisher Site | Google Scholar
+[27]J. Li and L. Tang, “Developing a low-cost 3D plant morphological traits characterization system,” Computers and Electronics in Agriculture, vol. 143, pp. 1–13, 2017.
+View at: Publisher Site | Google Scholar
+[28]D. K. Großkinsky, J. Svensgaard, S. Christensen, and T. Roitsch, “Plant phenomics and the need for physiological phenotyping across scales to narrow the genotype-to-phenotype knowledge gap,” Journal of Experimental Botany, vol. 66, no. 18, pp. 5429–5440, 2015.
+View at: Publisher Site | Google Scholar
+[29]L. Li, Q. Zhang, and D. Huang, “A review of imaging techniques for plant phenotyping,” Sensors, vol. 14, no. 11, pp. 20078–20111, 2014.
+View at: Publisher Site | Google Scholar
+[30]N. Fahlgren, M. A. Gehan, and I. Baxter, “Lights, camera, action: high-throughput plant phenotyping is ready for a close-up,” Current Opinion in Plant Biology, vol. 24, pp. 93–99, 2015.
+View at: Publisher Site | Google Scholar
+[31]M. M. Rahaman, D. Chen, Z. Gillani, C. Klukas, and M. Chen, “Advanced phenotyping and phenotype data analysis for the study of plant growth and development,” Frontiers in Plant Science, vol. 6, article no. 619, 2015.
+View at: Publisher Site | Google Scholar
+[32]F. Fiorani, U. Rascher, S. Jahnke, and U. Schurr, “Imaging plant dynamics in heterogeneous environments,” Current Opinion in Biotechnology, vol. 23, no. 2, pp. 227–235, 2012.
+View at: Publisher Site | Google Scholar
+[33]G. Lobet, X. Draye, and C. Périlleux, “An online database for plant image analysis software tools,” Plant Methods, vol. 9, no. 1, article no. 38, 2013.
+View at: Publisher Site | Google Scholar
+[34]A. Hartmann, T. Czauderna, R. Hoffmann, N. Stein, and F. Schreiber, “HTPheno: An image analysis pipeline for high-throughput plant phenotyping,” BMC Bioinformatics, vol. 12, article no. 148, 2011.
+View at: Publisher Site | Google Scholar
+[35]H. M. Easlon and A. J. Bloom, “Easy leaf area: Automated digital image analysis for rapid and accurate measurement of leaf area,” Applications in Plant Sciences, vol. 2, no. 7, Article ID 1400033, 2014.
+View at: Publisher Site | Google Scholar
+[36]C. Klukas, D. Chen, and J.-M. Pape, “Integrated analysis platform: An open-source information system for high-throughput plant phenotyping,” Plant Physiology, vol. 165, no. 2, pp. 506–518, 2014.
+View at: Publisher Site | Google Scholar
+[37]A. C. Knecht, M. T. Campbell, A. Caprez, D. R. Swanson, and H. Walia, “Image Harvest: An open-source platform for high-throughput plant image processing and analysis,” Journal of Experimental Botany, vol. 67, no. 11, pp. 3587–3599, 2016.
+View at: Publisher Site | Google Scholar
+[38]A. Patrignani and T. E. Ochsner, “Canopeo: A powerful new tool for measuring fractional green canopy cover,” Agronomy Journal, vol. 107, no. 6, pp. 2312–2320, 2015.
+View at: Publisher Site | Google Scholar
+[39]R. A. Richards, G. J. Rebetzke, A. G. Condon, and A. F. Van Herwaarden, “Breeding opportunities for increasing the efficiency of water use and crop yield in temperate cereals,” Crop Science, vol. 42, no. 1, pp. 111–121, 2002.
+View at: Publisher Site | Google Scholar
+[40]P. R. Ryan, M. Liao, E. Delhaize et al., “Early vigour improves phosphate uptake in wheat,” Journal of Experimental Botany, vol. 66, no. 22, pp. 7089–7100, 2015.
+View at: Publisher Site | Google Scholar
+[41]J. Pang, J. A. Palta, G. J. Rebetzke, and S. P. Milroy, “Wheat genotypes with high early vigour accumulate more nitrogen and have higher photosynthetic nitrogen use efficiency during early growth,” Functional Plant Biology, vol. 41, no. 2, pp. 215–222, 2014.
+View at: Publisher Site | Google Scholar
+[42]N.-O. Bertholdsson, “Early vigour and allelopathy - Two useful traits for enhanced barley and wheat competitiveness against weeds,” Weed Research, vol. 45, no. 2, pp. 94–102, 2005.
+View at: Publisher Site | Google Scholar
+[43]E. H. Neilson, A. M. Edwards, C. K. Blomstedt, B. Berger, B. L. Møller, and R. M. Gleadow, “Utilization of a high-throughput shoot imaging system to examine the dynamic phenotypic responses of a C4 cereal crop plant to nitrogen and water deficiency over time,” Journal of Experimental Botany, vol. 66, no. 7, pp. 1817–1832, 2015.
+View at: Publisher Site | Google Scholar
+[44]M. W. Ter Steege, F. M. Den Ouden, H. Lambers, P. Stam, and A. J. M. Peeters, “Genetic and physiological architecture of early vigor in Aegilops tauschii, the D-genome donor of hexaploid wheat. A quantitative trait loci analysis,” Plant Physiology, vol. 139, no. 2, pp. 1078–1094, 2005.
+View at: Publisher Site | Google Scholar
+[45]M. C. Rebolledo, M. Dingkuhn, B. Courtois et al., “Phenotypic and genetic dissection of component traits for early vigour in rice using plant growth modelling, sugar content analyses and association mapping,” Journal of Experimental Botany, vol. 66, no. 18, pp. 5555–5566, 2015.
+View at: Publisher Site | Google Scholar
+[46]M. L. Maydup, C. Graciano, J. J. Guiamet, and E. A. Tambussi, “Analysis of early vigour in twenty modern cultivars of bread wheat (Triticum aestivum L.),” Crop & Pasture Science, vol. 63, no. 10, pp. 987–996, 2012.
+View at: Publisher Site | Google Scholar
+[47]J. Svensgaard, T. Roitsch, and S. Christensen, “Development of a mobile multispectral imaging platform for precise field phenotyping,” Agronomy, vol. 4, no. 3, pp. 322–336, 2014.
+View at: Publisher Site | Google Scholar
+[48]F. Liebisch, N. Kirchgessner, D. Schneider, A. Walter, and A. Hund, “Remote, aerial phenotyping of maize traits with a mobile multi-sensor approach,” Plant Methods, vol. 11, no. 1, article no. 9, 2015.
+View at: Publisher Site | Google Scholar
+[49]E. Fehér-Juhász, P. Majer, L. Sass et al., “Phenotyping shows improved physiological traits and seed yield of transgenic wheat plants expressing the alfalfa aldose reductase under permanent drought stress,” Acta Physiologiae Plantarum, vol. 36, no. 3, pp. 663–673, 2014.
+View at: Publisher Site | Google Scholar
+[50]L. Chaerle, D. Hagenbeek, X. Vanrobaeys, and D. Van Der Straeten, “Early detection of nutrient and biotic stress in Phaseolus vulgaris,” International Journal of Remote Sensing, vol. 28, no. 16, pp. 3479–3492, 2007.
+View at: Publisher Site | Google Scholar
+[51]J. F. Humplík, D. Lazár, T. Fürst, A. Husicková, M. Hýbl, and L. Spíchal, “Automated integrative high-throughput phenotyping of plant shoots: A case study of the cold-tolerance of pea (Pisum sativum L.),” Plant Methods, vol. 11, no. 1, article no. 20, 2015.
+View at: Publisher Site | Google Scholar
+[52]Y. S. Chung, S. C. Choi, R. R. Silva, J. W. Kang, J. H. Eom, and C. Kim, “Case study: Estimation of sorghum biomass using digital image analysis with Canopeo,” Biomass & Bioenergy, vol. 105, pp. 207–210, 2017.
+View at: Publisher Site | Google Scholar
+[53]R. Hunt, Plant growth curves: the functional approach to plant growth analysis, Arnold, London, UK, 1982.
+M. R. Golzarian, R. A. Frick, K. Rajendran et al., “Accurate inference of shoot biomass from high-throughput images of cereal plants,” Plant Methods, vol. 7, no. 1, article no. 2, 2011.
+View at: Publisher Site | Google Scholar
+[54]K. H. Kjaer and C.-O. Ottosen, “3D laser triangulation for plant phenotyping in challenging environments,” Sensors, vol. 15, no. 6, pp. 13533–13547, 2015.
+View at: Publisher Site | Google Scholar
+[55]C. A. Schneider, W. S. Rasband, and K. W. Eliceiri, “NIH Image to ImageJ: 25 years of image analysis,” Nature Methods, vol. 9, no. 7, pp. 671–675, 2012.
+View at: Publisher Site | Google Scholar
+Copyright
